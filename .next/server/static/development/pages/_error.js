@@ -88,7 +88,11 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 2);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
+>>>>>>> latest
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -561,7 +565,11 @@ var styles = {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 2:
+=======
+/***/ 1:
+>>>>>>> latest
 /*!************************************!*\
   !*** multi next/dist/pages/_error ***!
   \************************************/

@@ -88,11 +88,16 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 1);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
+>>>>>>> latest
 /******/ })
 /************************************************************************/
 /******/ ({
 
+<<<<<<< HEAD
 /***/ "./lib/gtag.js":
 /*!*********************!*\
   !*** ./lib/gtag.js ***!
@@ -128,6 +133,8 @@ const event = ({
 
 /***/ }),
 
+=======
+>>>>>>> latest
 /***/ "./node_modules/next/dist/next-server/lib/constants.js":
 /*!*************************************************************!*\
   !*** ./node_modules/next/dist/next-server/lib/constants.js ***!
@@ -1070,13 +1077,20 @@ const ESCAPE_LOOKUP={'&':'\\u0026','>':'\\u003e','<':'\\u003c','\u2028':'\\u2028
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "./node_modules/next/document.js":
 /*!***************************************!*\
   !*** ./node_modules/next/document.js ***!
+=======
+/***/ 2:
+/*!***************************************!*\
+  !*** multi next/dist/pages/_document ***!
+>>>>>>> latest
   \***************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(/*! ./dist/pages/_document */ "./node_modules/next/dist/pages/_document.js")
 
 
@@ -1195,6 +1209,9 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(/*! private-next-pages/_document.js */"./pages/_document.js");
+=======
+module.exports = __webpack_require__(/*! next/dist/pages/_document */"./node_modules/next/dist/pages/_document.js");
+>>>>>>> latest
 
 
 /***/ }),

@@ -132,7 +132,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next-seo */ "next-seo");
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _next_seo_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../next-seo.config */ "./next-seo.config.js");
+<<<<<<< HEAD
 var _jsxFileName = "E:\\reactjs\\office-work\\next-latest\\pages\\_app.js";
+=======
+var _jsxFileName = "/home/b-rave/Documents/jalaj/trulia-clone/hello-next/pages/_app.js";
+>>>>>>> latest
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 

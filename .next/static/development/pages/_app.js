@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 (window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
+=======
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+>>>>>>> latest
 
 /***/ "./next-seo.config.js":
 /*!****************************!*\
@@ -3116,12 +3120,20 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
+<<<<<<< HEAD
   !*** delegated ./node_modules/react/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+=======
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
+>>>>>>> latest
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react/index.js");
+=======
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/react/index.js");
+>>>>>>> latest
 
 /***/ }),
 
@@ -3882,7 +3894,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _next_seo_config__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../next-seo.config */ "./next-seo.config.js");
 
+<<<<<<< HEAD
 var _jsxFileName = "E:\\reactjs\\office-work\\next-latest\\pages\\_app.js";
+=======
+var _jsxFileName = "/home/b-rave/Documents/jalaj/trulia-clone/hello-next/pages/_app.js";
+>>>>>>> latest
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -3920,19 +3936,33 @@ function MyApp(_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
+<<<<<<< HEAD
 module.exports = __webpack_require__(/*! E:\reactjs\office-work\next-latest\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+=======
+module.exports = __webpack_require__(/*! /home/b-rave/Documents/jalaj/trulia-clone/hello-next/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+>>>>>>> latest
 
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "dll-reference dll_2adc2403d89adc16ead0":
 /*!*******************************************!*\
   !*** external "dll_2adc2403d89adc16ead0" ***!
+=======
+/***/ "dll-reference dll_c2e10d183b950a67d9e7":
+/*!*******************************************!*\
+  !*** external "dll_c2e10d183b950a67d9e7" ***!
+>>>>>>> latest
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 module.exports = dll_2adc2403d89adc16ead0;
+=======
+module.exports = dll_c2e10d183b950a67d9e7;
+>>>>>>> latest
 
 /***/ })
 

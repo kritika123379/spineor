@@ -941,7 +941,11 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
+<<<<<<< HEAD
       (0, _sourceMapSupport.rewriteStacktrace)(error, "E:\\reactjs\\office-work\\next-latest\\.next");
+=======
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/b-rave/Documents/jalaj/trulia-clone/hello-next/.next");
+>>>>>>> latest
       return error;
     }
   };
@@ -5743,12 +5747,20 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
+<<<<<<< HEAD
   !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+=======
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
+>>>>>>> latest
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react-dom/index.js");
+=======
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/react-dom/index.js");
+>>>>>>> latest
 
 /***/ }),
 
@@ -6022,12 +6034,20 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
+<<<<<<< HEAD
   !*** delegated ./node_modules/react/index.js from dll-reference dll_2adc2403d89adc16ead0 ***!
+=======
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_c2e10d183b950a67d9e7 ***!
+>>>>>>> latest
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = (__webpack_require__(/*! dll-reference dll_2adc2403d89adc16ead0 */ "dll-reference dll_2adc2403d89adc16ead0"))("./node_modules/react/index.js");
+=======
+module.exports = (__webpack_require__(/*! dll-reference dll_c2e10d183b950a67d9e7 */ "dll-reference dll_c2e10d183b950a67d9e7"))("./node_modules/react/index.js");
+>>>>>>> latest
 
 /***/ }),
 
@@ -6812,14 +6832,24 @@ module.exports = function (options) {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "dll-reference dll_2adc2403d89adc16ead0":
 /*!*******************************************!*\
   !*** external "dll_2adc2403d89adc16ead0" ***!
+=======
+/***/ "dll-reference dll_c2e10d183b950a67d9e7":
+/*!*******************************************!*\
+  !*** external "dll_c2e10d183b950a67d9e7" ***!
+>>>>>>> latest
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 module.exports = dll_2adc2403d89adc16ead0;
+=======
+module.exports = dll_c2e10d183b950a67d9e7;
+>>>>>>> latest
 
 /***/ })
 
