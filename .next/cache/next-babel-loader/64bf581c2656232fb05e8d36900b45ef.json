@@ -1,1 +1,0 @@
-{"ast":null,"code":"import fetch from \"node-fetch\";\nexport const fetcher = url => fetch(url).then(r => r).catch(err => err);","map":null,"metadata":{},"sourceType":"module"}
