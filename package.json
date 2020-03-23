@@ -15,10 +15,8 @@
     "@reach/skip-nav": "^0.9.0",
     "classnames": "^2.2.6",
     "firebase": "^7.12.0",
-<<<<<<< HEAD
     "grpc": "^1.24.2",
-=======
->>>>>>> latest
+    "grpc": "^1.24.2",
     "next": "^9.3.1",
     "next-seo": "^4.4.0",
     "node-fetch": "^2.6.0",
