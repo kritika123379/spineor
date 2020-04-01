@@ -31,7 +31,7 @@ export class Third extends Component {
                     position: absolute;
                     width: 1300px;
                     height: 859px;
-                    left: 100px;
+                    left: 1px;
                     top: 1858px;
                     background-image: url('african-american-american-asian-beautiful-black-brainstorming-1434033-pxhere.png');
                     border:2px solid black

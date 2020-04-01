@@ -28,10 +28,10 @@ export class Topcomp extends Component {
                         position: absolute;
                         width: 1300px;
                         height: 630px;
-                        left:100px;
+                        left:0px;
                         top: 74px;
                         background: #FFFFFF;
-                        border:2px solid black
+                       
                     }
                     .inner_header{
                         position: absolute;

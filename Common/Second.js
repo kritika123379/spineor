@@ -36,7 +36,7 @@ export class Second extends Component {
                     position: absolute;
                     width: 1300px;
                     height: 859px;
-                    left: 100px;
+                    left: 1px;
                     top: 778px;
                     backgroundImage: url('/resourses/images/img1.jpg');
                     border:2px solid black

@@ -1,2 +1,2 @@
-# next-latest
+# spineor-next
 
