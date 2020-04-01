@@ -1,0 +1,1 @@
+{"ast":null,"code":"export default {\n  openGraph: {\n    type: 'website',\n    locale: 'en_IE',\n    site_name: 'SiteName'\n  },\n  twitter: {\n    handle: '@handle',\n    site: '@site',\n    cardType: 'summary_large_image'\n  }\n};","map":null,"metadata":{},"sourceType":"module"}
