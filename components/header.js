@@ -3,15 +3,13 @@ import cn from 'classnames';
 
 import Banner from './banner';
 import Nav from './navbar';
+import About from '../pages/About';
 
 const Header = ({ sticky = true }) => {
   return (
     <>
-
-      <header className={cn({ sticky })}>
-        <Nav />
-      </header>
-      <Banner />
+      <About/>
+      
 
       <style jsx>{`
         header {
