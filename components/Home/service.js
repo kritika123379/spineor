@@ -20,41 +20,41 @@ const Service = () => {
             </div>
                     </div>
                 </div>
-                <div className= "vector1"></div>
-                <div className= "vector2"></div>
-                <div className= "ellipse1"></div>
-                <div className= "ellipse2"></div>
-                <div className= "ellipse3"></div>
-                <div className= "ellipse4"></div>
-                <div className= "box22">
-                Java Development Services
-                <br/> 
-                Java Enterprise Application Development 
-                <br/>
-                Java Desktop Application Development 
-                <br/>
+                <div className="vector1"></div>
+                <div className="vector2"></div>
+                <div className="ellipse1"></div>
+                <div className="ellipse2"></div>
+                <div className="ellipse3"></div>
+                <div className="ellipse4"></div>
+                <div className="box22">
+                    Java Development Services
+                <br />
+                Java Enterprise Application Development
+                <br />
+                Java Desktop Application Development
+                <br />
                 Java Mobile Application Development
                 </div>
-                <div className= "ellipse5"></div>
-                <div className= "ellipse6"></div>
-                <div className= "ellipse7"></div>
-                <div className= "box23">
-                Java Web Services Development
-                <br/> 
-                Java Application Migration & Integration 
-                <br/>
+                <div className="ellipse5"></div>
+                <div className="ellipse6"></div>
+                <div className="ellipse7"></div>
+                <div className="box23">
+                    Java Web Services Development
+                <br />
+                Java Application Migration & Integration
+                <br />
                 Java Application Maintenance & Support
                 </div>
-                <div className= "box24">
-                    <div className= "box25">
-                    View Our JAVA/SCALA Programming Service In Details
+                <div className="box24">
+                    <div className="box25">
+                        View Our JAVA/SCALA Programming Service In Details
                     </div>
                 </div>
             </div>
             <style jsx>{`
     .box12 {
         position: absolute;
-        width: 1340px;
+        width: 1344px;
         height: 744px;
         left: 0px;
         top: 1962px;
@@ -240,21 +240,29 @@ const Service = () => {
 
     .vector1 {
         position: absolute;
+        border: solid blue;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
         left: 38%;
-        right: 60%;
-        top: 109%;
-        bottom: -15%;
-        background: #87BBE5;
+        right: 59%;
+        top: 111%;
+        bottom: -17%;
+        transform: rotate(135deg);
+        -webkit-transform: rotate(135deg);
     }
     
     .vector2 {
         position: absolute;
+        border: solid blue;
+        border-width: 0 3px 3px 0;
+        display: inline-block;
         left: 43%;
-        right: 55%;
-        top: 109%;
-        bottom: -15%;
-        background: #184A88;
-        transform: rotate(-180deg);
+        right: 54%;
+        top: 111%;
+        bottom: -17%;
+        padding: 13px;
+        transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
     }
     `}</style>
         </div>

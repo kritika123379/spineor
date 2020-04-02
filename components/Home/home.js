@@ -1,5 +1,7 @@
 import Service from "./service";
 import Insights from "./insights";
+import Testimonial from "./testimonial";
+import LetsTalk from "./letstalk";
 
 const Home = () => {
   return (
@@ -47,6 +49,8 @@ const Home = () => {
       </div>
       <Service/>
       <Insights/>
+      <Testimonial/>
+      <LetsTalk/>
 
       <style jsx>{`
   .box {
