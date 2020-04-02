@@ -1,0 +1,1 @@
+{"ast":null,"code":"import React from \"react\";\nvar __jsx = React.createElement;\nimport { PureComponent } from 'react';\nexport default function (Comp) {\n  return class extends PureComponent {\n    render() {\n      return __jsx(Comp, this.props);\n    }\n\n  };\n}","map":null,"metadata":{},"sourceType":"module"}
