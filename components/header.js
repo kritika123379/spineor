@@ -4,11 +4,13 @@ import cn from 'classnames';
 import Banner from './banner';
 import Nav from './navbar';
 import About from '../pages/About';
+import OurInfa from "../pages/OurInfa/index";
+import Service from '../pages/Service';
 
 const Header = ({ sticky = true }) => {
   return (
     <>
-      <About/>
+    <About/>
       
 
       <style jsx>{`

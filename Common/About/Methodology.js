@@ -1,18 +1,21 @@
 import React, { Component } from 'react'
 
-export class Second extends Component {
+//import img1 from "../resourses/images/img1.jpg";
+export class Methodology extends Component {
     render() {
         return (
             <React.Fragment>
-              <div className="image_wrapper">
+              <div className="image_wrapper" 
+            //style={{backgroundImage:`url(${img1})`}}
+              >
               </div>  
               <div className="image_left">
               </div>
-              <div className="image_left_header">
+            <div className="image_left_header">
               Our<br/> Methodology
               </div>
               <div className="image_left_text">
-                 At Spineor, we have  an  enormous  industry <br/>
+                  Spineor, we have  an  enormous  industry <br/>
                 experience in  developing a  methodology that <br/>
                 applies to all projects irrespective of size and  <br/>
                 duration.
@@ -98,4 +101,4 @@ export class Second extends Component {
     }
 }
 
-export default Second
+export default Methodology

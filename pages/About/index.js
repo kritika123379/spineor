@@ -1,19 +1,20 @@
 import React, { Component } from 'react'
-import Topcomp from '../../Common/Topcomp'
-import Second from '../../Common/Second'
-import Third from '../../Common/Third'
-import Fourth from '../../Common/Fourth'
-import Fifth from '../../Common/Fifth'
+import Whoarewe from '../../Common/About/Whoarewe'
+import Methodology from '../../Common/About/Methodology'
+import Process from '../../Common/About/Process'
+import Helpus from '../../Common/About/Helpus'
+import Company from '../../Common/About/Company'
+
 
 export class About extends Component {
     render() {
         return (
             <React.Fragment>
-                <Topcomp/>
-                <Second/>
-                <Third/>
-                <Fourth/>
-                <Fifth/>
+              <Whoarewe/>
+                <Methodology/>
+                <Process/>
+                <Helpus/>
+                <Company/>
             </React.Fragment>
         )
     }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 
-export class Fourth extends Component {
+export class Helpus extends Component {
     render() {
         return (
             <React.Fragment>
@@ -498,4 +498,4 @@ export class Fourth extends Component {
     }
 }
 
-export default Fourth
+export default Helpus

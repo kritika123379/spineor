@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Third extends Component {
+export class Process extends Component {
     render() {
         return (
             <React.Fragment>
@@ -12,10 +12,10 @@ export class Third extends Component {
                 Our <br/> Process
                 </div>
                 <div className="image_left_text">
-                <p> Over the past few years, Spineor has constructed <br/>
+                 Over the past few years, Spineor has constructed <br/>
                 a key collection of development and design <br/>
                 facilities that not only surpassed our customers'<br/>
-                 expectations. </p>
+                 expectations. 
                 </div>
                 <div className="image_right">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br/>
@@ -90,4 +90,4 @@ export class Third extends Component {
     }
 }
 
-export default Third
+export default Process

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Head from "next/head";
 
-export class Fifth extends Component {
+export class Company extends Component {
     render() {
         return (
             <React.Fragment>
@@ -13,7 +13,7 @@ export class Fifth extends Component {
                     <div className="inner_wrapper">
                     </div>
                     <div className="top_text">
-                        READMOREABOUTUS
+                        READ MORE ABOUT US
                     </div>
                     <div className="top_header">
                         Know more about our company
@@ -29,18 +29,12 @@ export class Fifth extends Component {
                         unchanged, and we continue to take determined steps into the <br />
                         future with every individual associated with us.</p>
                     </div>
-                    <div className="button_wrapper">
-                    
-                    </div>
-                    
+
+                    <div className="button_wrapper">   
+                    </div>  
                     <div className="button_text">
-                    <span><i className="fas fa-arrow-down"></i></span>
-                   
-                     DownloadWhitepaper
-                    
-                    </div>
-                    
-                    
+                    <span><i className="fas fa-arrow-down"></i></span> DownloadWhitepaper
+                    </div>                    
                 </div>
               
                 <style jsx>{`
@@ -54,7 +48,7 @@ export class Fifth extends Component {
                     }
                     .top_text{
                         position: absolute;
-                        width: 192px;
+                        width: 208px;
                         height: 21px;
                         left: 111px;
                         top: 4146px;
@@ -135,4 +129,4 @@ export class Fifth extends Component {
     }
 }
 
-export default Fifth
+export default Company
