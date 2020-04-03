@@ -2,6 +2,7 @@ import { useAmp } from 'next/amp';
 import Home from '../components/Home/home'
 import Page from '../components/page';
 import Footer from '../components/Footer/footer';
+import Header from '../components/Header/header'
 import ListProperty from '../components/listProperty';
 import fetch from 'node-fetch'
 import { fetcher } from '../shared/globalFunc';
@@ -15,6 +16,7 @@ export default (props) => {
 
   return (
     <div>
+    <Header/>
     <Home/>
     <Footer/>
     </div>

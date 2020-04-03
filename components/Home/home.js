@@ -20,7 +20,8 @@ const Home = () => {
         </div>
         </div>
 
-        <div className="backimg">
+        <div>
+        <img className="backimg" src= "images\image1.png"></img>
           <div className="box5">
             <div className="box6">
               A PEOPLE-FIRST APPROACH
@@ -60,6 +61,7 @@ const Home = () => {
     top: 73px;
     background: #FFFFFF;
   }
+
   .box1 {
     position: absolute;
     width: 586px;
@@ -73,6 +75,7 @@ const Home = () => {
     line-height: 105px;   
     color: #333333;
   }
+
 .box2 {
     position: absolute;
     width: 411px;
@@ -114,22 +117,20 @@ const Home = () => {
 }
 
 .backimg {
-    position: absolute;
-    width: 1340px;
-    height: 859px;
-    left: 0px;
-    top: 791px;
-    background-color: gray;
-    
-  }
+  position: absolute;
+  width: 1340px;
+  height: 859px;
+  left: 0px;
+  top: 791px;
+}
 
 .box5 {
-    position: absolute;
-    width: 617px;
-    height: 399px;
-    left: 33px;
-    top: 460px;
-    background: #184A88;
+  position: absolute;
+  width: 617px;
+  height: 399px;
+  left: 33px;
+  top: 1252px;
+  background: #184A88;
 }  
 
 .box6 {
@@ -161,38 +162,38 @@ const Home = () => {
 }
 
 .box8 {
-    position: absolute;
-    width: 690px;
-    height: 243px;
-    left: 650px;
-    top: 616px;
-    background: #FFFFFF;
+  position: absolute;
+  width: 690px;
+  height: 243px;
+  left: 650px;
+  top: 1409px;
+  background: #FFFFFF;
 }
 
 .box9 {
-    position: absolute;
-    width: 567px;
-    height: 287px;
-    left: 50px;
-    top: 91px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 21px;
-    color: #333333;
+  position: absolute;
+  width: 567px;
+  height: 287px;
+  left: 50px;
+  top: 91px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  color: #333333;
 }
 
 .box10 {
-    position: absolute;
-    width: 345px;
-    height: 50px;
-    left: 692px;
-    top: 950px;
-    background: #FFFFFF;
-    border: 2px solid #184A88;
-    box-sizing: border-box;
-    border-radius: 4px;
+  position: absolute;
+  width: 345px;
+  height: 50px;
+  left: 692px;
+  top: 1750px;
+  background: #FFFFFF;
+  border: 2px solid #184A88;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .box11 {
