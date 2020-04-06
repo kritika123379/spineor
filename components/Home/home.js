@@ -57,6 +57,7 @@ const Home = () => {
     position: absolute;
     width: 1340px;
     height: 630px;
+    top: 73px;
     background: #FFFFFF;
   }
   .box1 {
