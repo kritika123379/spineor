@@ -9,6 +9,7 @@ import { fetcher } from '../shared/globalFunc';
 import Link from 'next/link';
 import SocialMeta from '../components/social-meta';
 import { SkipNavContent } from '@reach/skip-nav';
+import Success from '../components/Success/success-stories';
 
 
 export default (props) => {
@@ -19,6 +20,7 @@ export default (props) => {
     <Header/>
     <Home/>
     <Footer/>
+    {/* <Success/> */}
     </div>
   );
 };

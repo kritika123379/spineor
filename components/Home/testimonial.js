@@ -1,12 +1,21 @@
 const Testimonial = () => {
     return(
         <div>
-            <div className= "world-map">
+            <div >
+            <img className= "world-map" src= "images\testimonial-img.png"/>
                 <div className= "vector">
-                <div className= "testimonial-img1"></div>
-                <div className= "testimonial-img2"></div>
-                <div className= "testimonial-img3"></div>
-                <div className= "testimonial-img4"></div>
+                <div>
+                <img className= "testimonial-img1" src= "images\person1.jpg"/>
+                </div>
+                <div>
+                <img className= "testimonial-img2" src= "images\person2.jpg"/>
+                </div>
+                <div>
+                <img className= "testimonial-img3" src= "images\person3.jpg"/>
+                </div>
+                <div>
+                <img className= "testimonial-img4" src= "images\person4.jpg"/>
+                </div>
                 </div>
                 <div className= "t-name">
                 Sean Devlin
@@ -28,7 +37,7 @@ const Testimonial = () => {
         height: 632px;
         left: 0px;
         top: 4409px;
-        background-color: gray;
+        opacity: 0.2;
     }
 
     .testimonial-box {
@@ -36,7 +45,7 @@ const Testimonial = () => {
         width: 631px;
         height: 170px;
         left: 500px;
-        top: 435px;
+        top: 4759px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
@@ -50,7 +59,7 @@ const Testimonial = () => {
         width: 162px;
         height: 275px;
         left: 755px;
-        top: 378px;
+        top: 4709px;
         font-family: Rochester;
         font-style: normal;
         font-weight: normal;
@@ -65,7 +74,7 @@ const Testimonial = () => {
         width: 125px;
         height: 28px;
         left: 500px;
-        top: 365px;
+        top: 4672px;
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -79,7 +88,7 @@ const Testimonial = () => {
         width: 283px;
         height: 19px;
         left: 500px;
-        top: 399px;      
+        top: 4710px;      
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -94,7 +103,7 @@ const Testimonial = () => {
         height: 110.81px;
         left: 255.05px;
         top: 0px;
-        background-color: red;
+        border-radius: 50%;
     }
 
     .testimonial-img2 {
@@ -103,7 +112,8 @@ const Testimonial = () => {
         height: 106px;
         left: 32px;
         top: 159px;
-        background-color: red;
+        border-radius: 50%;
+        opacity: 0.2;
     }
 
     .testimonial-img3 {
@@ -112,7 +122,8 @@ const Testimonial = () => {
         height: 90px;
         left: 714px;
         top: 13px;
-        background-color: red;
+        border-radius: 50%; 
+        opacity: 0.2;  
     }
 
     .testimonial-img4 {
@@ -121,7 +132,8 @@ const Testimonial = () => {
         height: 118px;
         left: 1176px;
         top: 152px;
-        background-color: red;
+        border-radius: 50%;
+        opacity: 0.2;
     }
      
     .vector {
@@ -129,8 +141,7 @@ const Testimonial = () => {
         width: 1330px;
         height: 274.09px;
         left: 7px;
-        top: 56px;
-        border: 1px solid rgba(0, 0, 0, 0.1);
+        top: 4420px;
     }
 
     `}</style>

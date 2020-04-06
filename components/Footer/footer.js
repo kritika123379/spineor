@@ -1,3 +1,5 @@
+import Youtubesvg from "./Youtubesvg"
+import Facebook from "./Facebook"
 
 const Footer = () => {
     return(
@@ -186,12 +188,6 @@ const Footer = () => {
         color: #DCDCDC;
     }
 
-    .youtube {
-        position: absolute;
-        left: 110%;
-        right: 110%;
-        top: 110%;
-    }
     `}</style>
         </div>
     )
