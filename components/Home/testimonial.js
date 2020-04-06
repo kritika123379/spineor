@@ -8,13 +8,13 @@ const Testimonial = () => {
                 <img className= "testimonial-img1" src= "images\person1.jpg"/>
                 </div>
                 <div>
-                <img className= "testimonial-img2" src= "images\person2.jpg"/>
+                <img className= "testimonial-img2" src= "images\person4.jpg"/>
                 </div>
                 <div>
-                <img className= "testimonial-img3" src= "images\person3.jpg"/>
+                <img className= "testimonial-img3" src= "images\person2.jpg"/>
                 </div>
                 <div>
-                <img className= "testimonial-img4" src= "images\person4.jpg"/>
+                <img className= "testimonial-img4" src= "images\person3.jpg"/>
                 </div>
                 </div>
                 <div className= "t-name">
@@ -113,7 +113,7 @@ const Testimonial = () => {
         left: 32px;
         top: 159px;
         border-radius: 50%;
-        opacity: 0.2;
+        opacity: 0.6;
     }
 
     .testimonial-img3 {
@@ -123,7 +123,7 @@ const Testimonial = () => {
         left: 714px;
         top: 13px;
         border-radius: 50%; 
-        opacity: 0.2;  
+        opacity: 0.6;  
     }
 
     .testimonial-img4 {
@@ -133,7 +133,7 @@ const Testimonial = () => {
         left: 1176px;
         top: 152px;
         border-radius: 50%;
-        opacity: 0.2;
+        opacity: 0.6;
     }
      
     .vector {

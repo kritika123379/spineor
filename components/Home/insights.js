@@ -1,4 +1,7 @@
+import Head from "next/head";
+
 const Insights = () => {
+
     return (
         <div>
             <div>
@@ -19,8 +22,8 @@ const Insights = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className= "vector1"></div>
-                <div className= "vector2"></div> */}
+                <div className= "vector1"></div>
+                <div className= "vector2"></div>
                 <div className="box6">
                     <div>
                     <img className="AI-header2" src= "images\insights-img2.jpg"/>
@@ -191,7 +194,6 @@ const Insights = () => {
                 top: 3905px;
                 bottom: 0px;
                 transform: rotate(-45deg);
-
             }
 
             .box10 {
