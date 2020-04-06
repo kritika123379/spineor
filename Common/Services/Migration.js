@@ -23,7 +23,9 @@ export class Migration extends Component {
                 <div className="button_outer"></div>
                 <div className="button_inner">Request A Free Consultation</div>
                 <div className="javadev_image"></div>
+                <img className="javadev_image" src="\images\java_dev.png"></img>
                 <div className="lock_image"></div>
+                <img className="lock_image" src="\images\java_developmet1.png"></img>
                 <div className="maintain_header">Java Maintenance And Support</div>
                 <div className="maintain_text">
                 Apps run smoothly if they’re maintained<br/>
@@ -97,9 +99,7 @@ export class Migration extends Component {
                     width: 662px;
                     height: 510px;
                     left: 622px;
-                    top: 2340px;
-                    background: url(javadev.png);
-                    border:2px solid  black
+                    top: 2340px;         
                 }
                 .lock_image{
                     position: absolute;
@@ -107,8 +107,6 @@ export class Migration extends Component {
                     height: 343px;
                     left: 26px;
                     top: 3119px;
-                    background: url(Untitled-1.png);
-                    border:2px solid black
                 }
                 .maintain_header{
                     position: absolute;

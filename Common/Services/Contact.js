@@ -1,31 +1,58 @@
 import React, { Component } from 'react'
+import Head from 'next/head'
 
 export class Contact extends Component {
     render() {
         return (
             <React.Fragment>
+            <Head>
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"/>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+             </Head>
                 <div className="outer_wrapper">
                 <form>
                 <div className="inner_header">
                 CONTACT US FOR A FREE & CONFIDENTIAL CONSULTATION 
                 </div>
-                <div className="outer_textfield_name"></div>
+                <div className="outer_textfield_name">
+                <span>
+                <i className="far fa-address-book fa-2x"
+                 style={{margin:"10px",color:"white"}}></i>
+                 </span>
+                </div>
+               
                     <div className="inner_textfield_name"></div>
                     <div className="inner_textfield_text"> Name </div>
 
-                    <div className="outer_textfield_email"></div>
+                    <div className="outer_textfield_email">
+                    <span>
+                    <i className="fas fa-envelope fa-2x" 
+                    style={{margin:"10px",color:"white"}}></i></span>
+                    </div>
                     <div className="inner_textfield_email"></div>
                     <div className="inner_textfield_email_text"> Email </div>
 
-                    <div className="outer_textfield_phone"></div>
+                    <div className="outer_textfield_phone">
+                    <span className="phone" >
+                    <i 
+                    className="fas fa-phone-alt fa-2x"
+                    style={{margin:"10px",color:"white"}}></i></span>
+                    </div>
                     <div className="inner_textfield_phone"></div>
                     <div className="inner_textfield_phone_text"> phone </div>
 
-                    <div className="outer_textfield_select"></div>
+                    <div className="outer_textfield_select">
+                    <span className="phone" >
+                     
+                    <i className="fas fa-calculator fa-2x"
+                    style={{margin:"10px",color:"white"}}></i></span>
+                    </div>
                     <div className="inner_textfield_select"></div>
                     <div className="inner_textfield_select_text"> Select Budget</div>
 
-                    <div className="out_rect"></div>
+                    <div className="out_rect">
+                    <span></span>
+                    </div>
                     <div className="in_rect"></div>
                     <div className="in_text">Requirements</div>
                    
@@ -303,9 +330,11 @@ export class Contact extends Component {
                     height: 49px;
                     left: 271px;
                     top: 4241px;
-
                     background: #C4C4C4;
                     border-radius: 3px;
+                }
+                .phone{
+                    padding:2px
                 }
                 `}</style>
             </React.Fragment>

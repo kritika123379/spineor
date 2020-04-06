@@ -132,7 +132,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next-seo */ "next-seo");
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var _next_seo_config__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../next-seo.config */ "./next-seo.config.js");
-var _jsxFileName = "E:\\reactjs\\office-work\\spineor-next\\spineor-next\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\hp\\Desktop\\merged-code -nav\\Spineor-code\\pages\\_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 

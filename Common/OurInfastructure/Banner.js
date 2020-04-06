@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import Layout from '../../components/Layout'
+
 
 export class Banner extends Component {
     render() {
         return (
             <React.Fragment>
+            <Layout>
                <div className="inner_header">
                Our Infrastructure
                </div> 
@@ -16,7 +19,7 @@ export class Banner extends Component {
                </div>
                <div className="button_outer">
                </div>
-               <div className="button-inner">
+               <div className="button_inner">
                Get in touch
                </div>
                <style jsx>{`
@@ -79,6 +82,7 @@ export class Banner extends Component {
                 color: #184A88;
                }
                `}</style>
+               </Layout>
             </React.Fragment>
         )
     }

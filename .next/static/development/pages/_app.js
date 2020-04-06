@@ -3882,7 +3882,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var next_seo__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_seo__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _next_seo_config__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../next-seo.config */ "./next-seo.config.js");
 
-var _jsxFileName = "E:\\reactjs\\office-work\\spineor-next\\spineor-next\\pages\\_app.js";
+var _jsxFileName = "C:\\Users\\hp\\Desktop\\merged-code -nav\\Spineor-code\\pages\\_app.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -3920,7 +3920,7 @@ function MyApp(_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.js!./");
-module.exports = __webpack_require__(/*! E:\reactjs\office-work\spineor-next\spineor-next\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! C:\Users\hp\Desktop\merged-code -nav\Spineor-code\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),
