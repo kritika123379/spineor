@@ -49,9 +49,21 @@ const FAQS = () => {
             <div className= "two-quest">
             How can I communicate with Spineor?
             </div>
-            <div className= "03"></div>
-            <div className= "04"></div>
-            <div className= "05"></div>
+            <div className= "three">03</div>
+            <div className= "line3"></div>
+            <div className= "three-quest">
+            What type of teams does Ogma Conceptions have?
+            </div>
+            <div className= "three">04</div>
+            <div className= "line4"></div>
+            <div className= "four-quest">
+            What type of teams does Ogma Conceptions have?
+            </div>
+            <div className= "five">05</div>
+            <div className= "line5"></div>
+            <div className= "five-quest">
+            What type of teams does Ogma Conceptions have?
+            </div>
             <style jsx>{`
 
     .faqs-box {
