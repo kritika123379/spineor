@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Layout from '../../components/Layout'
 
-export class Events extends Component {
+class Events extends Component {
     render() {
         return (
             <React.Fragment>
