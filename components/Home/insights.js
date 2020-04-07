@@ -22,8 +22,8 @@ const Insights = () => {
                         </div>
                     </div>
                 </div>
-                <div className= "vector1"></div>
-                <div className= "vector2"></div>
+                {/* <div className= "vector1"></div>
+                <div className= "vector2"></div> */}
                 <div className="box6">
                     <div>
                     <img className="AI-header2" src= "images\insights-img2.jpg"/>
