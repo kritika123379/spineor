@@ -1,3 +1,5 @@
+import Icon from "./Icon"
+
 const FAQS = () => {
     return (
         <div>
@@ -13,6 +15,7 @@ const FAQS = () => {
                 </div>
             </div>
             <div className= "one">01</div>
+            <div className= "line"></div>
             <div className= "one-quest">
             What are the services Spineor providing?
             </div>
@@ -32,21 +35,7 @@ const FAQS = () => {
                 <br/>
                 E-commerce Website Design
                 </div>
-
             <div className= "point-table2">
-                Mobile Application Development 
-                <br/>
-                iPhone Application Development 
-                <br/>
-                Web Development 
-                <br/>
-                Web Redesign and Maintenance 
-                <br/>
-                E-Commerce Solutions 
-                <br/>
-                E-commerce Website Design
-                </div>
-            {/* <div className= "point-table2">
             E-commerce Web Development 
             <br/>
             Fullstack Web Development 
@@ -54,8 +43,12 @@ const FAQS = () => {
             Internet Marketing and SEO 
             <br/>
             Open Source Customization – Joomla, Drupal, Magento, OsCommerce etc
-            </div> */}
-            <div className= "02"></div>
+            </div>
+            <div className= "two">02</div>
+            <div className= "line2"></div>
+            <div className= "two-quest">
+            How can I communicate with Spineor?
+            </div>
             <div className= "03"></div>
             <div className= "04"></div>
             <div className= "05"></div>
@@ -168,7 +161,7 @@ const FAQS = () => {
         color: #000000;
     }
 
-    point-table2 {
+    .point-table2 {
         position: absolute;
         width: 269px;
         height: 201px;
@@ -181,6 +174,55 @@ const FAQS = () => {
         line-height: 184%;
         color: #000000;
     }
+
+    .line {
+        position: absolute;
+        width: 60px;
+        height: 0px;
+        left: 286px;
+        top: 826px;
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        transform: rotate(90deg);
+    }
+
+    .two {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 271px;
+        top: 1299px;     
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;        
+        color: #184A88;
+    }
+
+    .line2 {
+        position: absolute;
+        width: 60px;
+        height: 0px;
+        left: 286px;
+        top: 1310px;
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        transform: rotate(90deg);
+    }
+
+    .two-quest {
+        position: absolute;
+        width: 404px;
+        height: 28px;
+        left: 339px;
+        top: 1299px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;       
+        color: #000000;
+    }
+
 
 
     `}</style>
