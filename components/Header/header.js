@@ -136,6 +136,7 @@ const Header = () => {
         left: 1158px;
         top: 18px;
         background: #184A88;
+<<<<<<< HEAD
         font-family: Roboto;
         font-style: normal;
         font-weight: normal;
@@ -145,6 +146,23 @@ const Header = () => {
 
     a {
         color: #FFFFFF
+=======
+        border-radius: 2px;
+    }
+
+    .button-inner {
+        position: absolute;
+        width: 90px;
+        height: 16px;
+        left: 1176px;
+        top: 31px;       
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;       
+        color: #FFFFFF;
+>>>>>>> master
     }
     `}</style>
         </div>

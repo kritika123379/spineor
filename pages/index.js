@@ -11,6 +11,7 @@ import SocialMeta from '../components/social-meta';
 import { SkipNavContent } from '@reach/skip-nav';
 import Success from '../components/Success/success-stories';
 import FAQS from '../components/FAQ/faqs';
+import Header from '../components/Header/header';
 
 
 export default (props) => {
@@ -21,6 +22,7 @@ export default (props) => {
     <Header/>
     <FAQS/>
     {/* <Home/> */}
+    <Home/>
     <Footer/>
     {/* <Success/> */}
     </div>
