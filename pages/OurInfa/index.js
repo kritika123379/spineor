@@ -1,4 +1,4 @@
-// import React, { Component } from 'react'
+import React, { Component } from 'react'
 // import Banner from '../../common/OurInfastructure/banner'
 // import Image from '../../common/OurInfastructure/Image';
 // import Inspire from '../../common/OurInfastructure/Inspire';
@@ -10,6 +10,7 @@ export class OurInfa extends Component {
     render() {
         return (
             <div>
+                Our Ibfrastructure
                 {/* <Layout>
                 <Banner/>
                 <Image/>
