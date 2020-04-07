@@ -1,22 +1,22 @@
-import React, { Component } from 'react'
-import Banner from '../../common/OurInfastructure/banner'
-import Image from '../../common/OurInfastructure/Image';
-import Inspire from '../../common/OurInfastructure/Inspire';
+// import React, { Component } from 'react'
+// import Banner from '../../common/OurInfastructure/banner'
+// import Image from '../../common/OurInfastructure/Image';
+// import Inspire from '../../common/OurInfastructure/Inspire';
 // import Events from '../../common/OurInfastructure/events';
-import Knowmore from '../../common/OurInfastructure/Knowmore';
-import Layout from '../../components/Layout';
+// import Knowmore from '../../common/OurInfastructure/Knowmore';
+// import Layout from '../../components/Layout';
 
 export class OurInfa extends Component {
     render() {
         return (
             <div>
-                <Layout>
+                {/* <Layout>
                 <Banner/>
                 <Image/>
                 <Inspire/>
-                {/* <Events/> */}
+                <Events/>
                 <Knowmore/>
-                </Layout>
+                </Layout> */}
             </div>
         )
     }
