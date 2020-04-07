@@ -2481,7 +2481,6 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 var _jsxFileName = "E:\\reactjs\\office-work\\spineor-next\\spineor-next\\components\\Footer\\Linkedin.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -2606,121 +2605,6 @@ __jsx("svg", {
   !*** ./components/Footer/footer.js ***!
   \*************************************/
 /*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _Youtubesvg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Youtubesvg */ "./components/Footer/Youtubesvg.js");
-/* harmony import */ var _Facebook__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Facebook */ "./components/Footer/Facebook.js");
-/* harmony import */ var _Linkedin__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Linkedin */ "./components/Footer/Linkedin.js");
-var _jsxFileName = "E:\\reactjs\\office-work\\spineor-next\\spineor-next\\components\\Footer\\footer.js";
-
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
-
-
-
-
-const Footer = () => {
-  return __jsx("div", {
-    className: "jsx-697616701",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7,
-      columnNumber: 9
-    }
-  }, __jsx("div", {
-    className: "jsx-697616701" + " " + "footer-box",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8,
-      columnNumber: 13
-    }
-  }, __jsx("div", {
-    className: "jsx-697616701" + " " + "quick-links",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9,
-      columnNumber: 17
-    }
-  }, "Quick Links"), __jsx("div", {
-    className: "jsx-697616701" + " " + "service-links",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 12,
-      columnNumber: 17
-    }
-  }, "Services"), __jsx("div", {
-    className: "jsx-697616701" + " " + "contact",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15,
-      columnNumber: 17
-    }
-  }, "Contact"), __jsx("div", {
-    className: "jsx-697616701" + " " + "quick-links-inner",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 18,
-      columnNumber: 17
-    }
-  }, "Home", __jsx("br", {
-    className: "jsx-697616701",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20,
-      columnNumber: 17
-    }
-  }), "About", __jsx("br", {
-    className: "jsx-697616701",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 22,
-      columnNumber: 17
-    }
-  }), "Success", __jsx("br", {
-    className: "jsx-697616701",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 24,
-      columnNumber: 17
-    }
-  }), "Stories", __jsx("br", {
-    className: "jsx-697616701",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 26,
-      columnNumber: 17
-    }
-  }), "Insights", __jsx("br", {
-    className: "jsx-697616701",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 28,
-      columnNumber: 17
-    }
-  }), "Career", __jsx("br", {
-    className: "jsx-697616701",
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 30,
-      columnNumber: 17
     }
   }), "Contact"), __jsx("div", {
     className: "jsx-697616701" + " " + "service-inner",
