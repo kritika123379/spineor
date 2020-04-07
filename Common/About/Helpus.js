@@ -5,8 +5,8 @@ export class Helpus extends Component {
     render() {
         return (
             <React.Fragment>
+                <img className="image_wrapper" src="/images/image2.png"/>
                 <div className="image_wrapper" >
-
                 </div>
                 <div className="image_left_wrapper">
                 </div>
@@ -20,7 +20,7 @@ export class Helpus extends Component {
                <p> At Spineor, we think the website or mobile<br/>
                  application of your company is your brand and<br/>
                   your brand is vital for the results of your company.<br/>
-                   Your website / app is a showcase of your <br/>
+                   Your website  app is a showcase of your <br/>
                    company to your clients, whether you're looking to <br/>
                     enter eCommerce, want to offer your restaurant<br/>
                      some additional panache on the internet, or have<br/>
@@ -51,33 +51,26 @@ export class Helpus extends Component {
                 
                 </div>
                 <div className="third_button_inner">
-                Upfront
+                    Upfront
                 </div>
                 </div>
                 <div className="fourth_button">
                 <div className="fourth_button_wrapper">
-                
                 </div>
                 <div className="fourth_button_inner">
-                Innovative
+                    Innovative
                 </div>
                 </div>
-                
                 <div className="fifth_button_wrapper">
                 </div>
                 <div className="fifth_button_inner">
-                Reliability
+                    Reliability
                 </div>
-               
-                <div className="line3">
-                
-                </div>
-                
                 <div className="line8">
                 </div>
-               
-                <div className="line7">
-               
+                <div className="line3">
+                </div>
+                <div className="line7">  
                 </div>
                 <div className="line10">
                 </div>
@@ -120,7 +113,6 @@ export class Helpus extends Component {
                     background-image: url('../resourses/images/img1.jpg');
                     background-color:'grey';
                     transform: matrix(-1, 0, 0, 1, 0, 0);
-                    border:2px solid black
                 }
                 .image_left_wrapper{
                     position: absolute;
@@ -324,7 +316,7 @@ export class Helpus extends Component {
                     left: 723px;
                     top: 3725px;
                 
-                    border: 1px solid Black;
+                    border: 1px solid #ffffff;
                 }
                 .line8{
                     position: absolute;
@@ -333,7 +325,7 @@ export class Helpus extends Component {
                     left: 919px;
                     top: 3725px;
 
-                    border: 1px solid black;
+                    border: 1px solid #ffffff;
 
                 }
                 .line7{
@@ -342,8 +334,7 @@ export class Helpus extends Component {
                     height: 0px;
                     left: 1114px;
                     top: 3725px;
-
-                    border: 1px solid black;
+                    border: 1px solid #ffffff;
 
                 }
                 .line6{
@@ -352,9 +343,16 @@ export class Helpus extends Component {
                         height: 0px;
                         left: 1109px;
                         top: 3914px;
-
-                        border: 1px solid black;
+                        border: 1px solid #ffffff;
                         transform: rotate(-90deg);
+                }
+                .line3{
+                    position: absolute;
+                    width: 180px;
+                    height: 0px;
+                    left: 723px;
+                    top: 3725px;
+                    border: 1px solid #FFFFFF;
                 }
                 .line9{
                     position: absolute;
@@ -362,8 +360,7 @@ export class Helpus extends Component {
                     height: 0px;
                     left: 1114px;
                     top: 3525px;
-
-                    border: 1px solid black;
+                    border: 1px solid #ffffff;
                 }
                 .line10{
                     position: absolute;
@@ -371,8 +368,7 @@ export class Helpus extends Component {
                     height: 0px;
                     left: 919px;
                     top: 3525px;
-
-                    border: 1px solid black;
+                    border: 1px solid #ffffff;
                 }
                 .line13{
                     position: absolute;
@@ -380,8 +376,7 @@ export class Helpus extends Component {
                     height: 0px;
                     left: 1114px;
                     top: 3322px;
-
-                    border: 1px solid black;
+                    border: 1px solid #ffffff;
                 }
                 .testing{
                      position: absolute;
@@ -389,7 +384,6 @@ export class Helpus extends Component {
                     height: 38px;
                     left: 1166px;
                     top: 3451px;
-
                     font-family: Roboto;
                     font-style: normal;
                     font-weight: 900;
@@ -397,16 +391,14 @@ export class Helpus extends Component {
                     line-height: 19px;
                     text-align: center;
                     text-transform: uppercase;
-
-                    color: black;
+                    color: #ffffff;
                 }
                 .maintain{
                     position: absolute;
                     width: 148px;
                     height: 38px;
                     left: 938px;
-                    top: 3655px;
-                    
+                    top: 3655px;             
                     font-family: Roboto;
                     font-style: normal;
                     font-weight: 900;
@@ -414,8 +406,7 @@ export class Helpus extends Component {
                     line-height: 19px;
                     text-align: center;
                     text-transform: uppercase;
-                    
-                    color: black; 
+                    color: #ffffff; 
                 }
                .strategy {
                     position: absolute;
@@ -429,8 +420,7 @@ export class Helpus extends Component {
                     font-size: 16px;
                     line-height: 19px;
                     text-transform: uppercase;
-                    color: black;
-
+                    color: #ffffff;
                 }
                 .design{
                     position: absolute;
@@ -438,14 +428,13 @@ export class Helpus extends Component {
                     height: 19px;
                     left: 982px;
                     top: 3855px;
-
                     font-family: Roboto;
                     font-style: normal;
                     font-weight: 900;
                     font-size: 16px;
                     line-height: 19px;
                     text-transform: uppercase;
-                    color: black;
+                    color: #ffffff;
                 }
                 .content{
                     position: absolute;
@@ -453,7 +442,6 @@ export class Helpus extends Component {
                     height: 38px;
                     left: 1164px;
                     top: 3845px;
-
                     font-family: Roboto;
                     font-style: normal;
                     font-weight: 900;
@@ -461,8 +449,7 @@ export class Helpus extends Component {
                     line-height: 19px;
                     text-align: center;
                     text-transform: uppercase;
-
-                    color: black;
+                    color: #ffffff;
                 }
                 .devop{
                     position: absolute;
@@ -470,7 +457,6 @@ export class Helpus extends Component {
                     height: 19px;
                     left: 1147px;
                     top: 3665px;
-
                     font-family: Roboto;
                     font-style: normal;
                     font-weight: 900;
@@ -478,7 +464,7 @@ export class Helpus extends Component {
                     line-height: 19px;
                     text-align: center;
                     text-transform: uppercase;
-                    color: black;
+                    color: #ffffff;
                 }
                 .line14{
                     position: absolute;
@@ -486,8 +472,7 @@ export class Helpus extends Component {
                     height: 0px;
                     left: 1109px;
                     top: 3511px;
-
-                    border: 1px solid black;
+                    border: 1px solid #ffffff;
                     transform: rotate(-90deg);
                 }
                

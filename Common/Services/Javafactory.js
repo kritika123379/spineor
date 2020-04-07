@@ -12,8 +12,8 @@ export class Javafactory extends Component {
                     <div className="java_factory_header">
                     JAVA FACTORY PROCESS 
                     </div>
-                    <div className="java_image">
-                    </div>
+                    
+                    {/*<img className="java_image" src="\images\java.png"></img>*/}
                 <style jsx>{`
                 .outer_wrapper{
                     position: absolute;
@@ -23,6 +23,7 @@ export class Javafactory extends Component {
                 top: 785px;
                
                 }
+
                 .inner_wrapper{
                     position: absolute;
                     width: 1300px;
@@ -52,8 +53,7 @@ export class Javafactory extends Component {
                     height: 626px;
                     left: 0px;
                     top: 844px;
-                    background: url('java.png');
-                    border:2px solid white;
+               
                 }
                
                 `} </style>

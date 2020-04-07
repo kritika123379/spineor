@@ -1,26 +1,56 @@
+import Link from 'next/link'
+
 const Header = () => {
     return(
         <div>
             <div className= "nav-box">
+            <Link href="/">
+                <a>
                 <img className= "spineor-logo" src= "\images\spineor-logo.png"></img>
+                </a>
+            </Link>
+            <Link href="/About">
+            <a>
                 <div className= "about">
                     ABOUT
                 </div>
+            </a>
+            </Link>   
+            <Link  href="/Service">
+            <a>
                 <div className= "service">
                     SERVICES
                 </div>
+            </a>
+            </Link>
+            <Link href="/success">
+            <a>
                 <div className= "success">
                     SUCCESS STORIES
                 </div>
+            </a>
+            </Link>
+            <Link href="/OurInfa">
+            <a>
                 <div className= "insights">
                     INSIGHTS
                 </div>
+            </a>
+            </Link>
+            <Link href="/">
+            <a>
                 <div className= "career">
                     CAREER
                 </div>
+            </a>
+            </Link>
+            <Link href="/">
+            <a>
                 <div className= "contact">
                     CONTACT
                 </div>
+            </a>
+            </Link>
                 <div>
                 <button className= "quote-button"><a>GET A QUOTE</a></button>
                 </div>
@@ -145,6 +175,21 @@ const Header = () => {
 
     a {
         color: #FFFFFF
+        border-radius: 2px;
+    }
+
+    .button-inner {
+        position: absolute;
+        width: 90px;
+        height: 16px;
+        left: 1176px;
+        top: 31px;       
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;       
+        color: #FFFFFF;
     }
     `}</style>
         </div>

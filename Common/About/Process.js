@@ -4,7 +4,16 @@ export class Process extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className="image_wrapper">
+                <img className="image_wrapper" src="/images/african4.png"/>
+                 <div className="right_wrapper"></div>
+                <div className="image_right">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br/>
+                industry. Lorem Ipsum has been the industry's standard dummy text<br/>
+                 ever since the 1500s, when an unknown printer took a galley of type and <br/>
+                 scrambled it to make a type specimen book. </p>
+                 <p>It has survived not only five centuries, but also the leap into electronic<br/>
+                  typesetting, remaining essentially unchanged. It was popularised in the<br/>
+                   1960s with the release of Letraset sheets containing</p> 
                 </div>
                 <div className="image_left">
                 </div>
@@ -17,24 +26,21 @@ export class Process extends Component {
                 facilities that not only surpassed our customers'<br/>
                  expectations. 
                 </div>
-                <div className="image_right">
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting <br/>
-                industry. Lorem Ipsum has been the industry's standard dummy text<br/>
-                 ever since the 1500s, when an unknown printer took a galley of type and <br/>
-                 scrambled it to make a type specimen book. </p>
-                 <p>It has survived not only five centuries, but also the leap into electronic<br/>
-                  typesetting, remaining essentially unchanged. It was popularised in the<br/>
-                   1960s with the release of Letraset sheets containing</p> 
-                </div>
                 <style jsx>{`
+                .right_wrapper{
+                    position: absolute;
+                    width: 699px;
+                    height: 243px;
+                    left: 602px;
+                    top: 2474px;
+                    background: #FFFFFF;
+                }
                 .image_wrapper{
                     position: absolute;
                     width: 1300px;
                     height: 859px;
                     left: 1px;
                     top: 1858px;
-                    background-image: url('african-american-american-asian-beautiful-black-brainstorming-1434033-pxhere.png');
-                    border:2px solid black
                 }
                 .image_left{
                     position: absolute;
@@ -56,7 +62,6 @@ export class Process extends Component {
                     font-size: 48px;
                     line-height: 56px;
                     color: #FFFFFF;
-
                 }
                 .image_left_text{
                     position: absolute;
