@@ -15,7 +15,11 @@ import Service from "./Service";
 
 
 import FAQS from '../components/FAQ/faqs';
+<<<<<<< HEAD
+
+=======
 import Header from '../components/Header/header';
+>>>>>>> master
 
 
 export default (props) => {
@@ -26,7 +30,10 @@ export default (props) => {
     <Header/>
     <FAQS/>
     {/* <Home/> */}
+<<<<<<< HEAD
+=======
     <Home/>
+>>>>>>> master
     <Footer/>
     {/* <Success/> */}
     </div>

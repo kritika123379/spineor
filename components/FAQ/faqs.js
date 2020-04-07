@@ -1,3 +1,5 @@
+import Icon from "./Icon"
+
 const FAQS = () => {
     return (
         <div>
@@ -13,6 +15,7 @@ const FAQS = () => {
                 </div>
             </div>
             <div className= "one">01</div>
+            <div className= "line"></div>
             <div className= "one-quest">
             What are the services Spineor providing?
             </div>
@@ -32,21 +35,7 @@ const FAQS = () => {
                 <br/>
                 E-commerce Website Design
                 </div>
-
             <div className= "point-table2">
-                Mobile Application Development 
-                <br/>
-                iPhone Application Development 
-                <br/>
-                Web Development 
-                <br/>
-                Web Redesign and Maintenance 
-                <br/>
-                E-Commerce Solutions 
-                <br/>
-                E-commerce Website Design
-                </div>
-            {/* <div className= "point-table2">
             E-commerce Web Development 
             <br/>
             Fullstack Web Development 
@@ -54,11 +43,27 @@ const FAQS = () => {
             Internet Marketing and SEO 
             <br/>
             Open Source Customization – Joomla, Drupal, Magento, OsCommerce etc
-            </div> */}
-            <div className= "02"></div>
-            <div className= "03"></div>
-            <div className= "04"></div>
-            <div className= "05"></div>
+            </div>
+            <div className= "two">02</div>
+            <div className= "line2"></div>
+            <div className= "two-quest">
+            How can I communicate with Spineor?
+            </div>
+            <div className= "three">03</div>
+            <div className= "line3"></div>
+            <div className= "three-quest">
+            What type of teams does Ogma Conceptions have?
+            </div>
+            <div className= "four">04</div>
+            <div className= "line4"></div>
+            <div className= "four-quest">
+            Are you flexible in adopting our standards or methodologies for development of our projects?
+            </div>
+            <div className= "five">05</div>
+            <div className= "line5"></div>
+            <div className= "five-quest">
+            How can I trust your productivity and charges to me?
+            </div>
             <style jsx>{`
 
     .faqs-box {
@@ -168,7 +173,7 @@ const FAQS = () => {
         color: #000000;
     }
 
-    point-table2 {
+    .point-table2 {
         position: absolute;
         width: 269px;
         height: 201px;
@@ -182,6 +187,168 @@ const FAQS = () => {
         color: #000000;
     }
 
+    .line {
+        position: absolute;
+        width: 60px;
+        height: 0px;
+        left: 286px;
+        top: 826px;
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        transform: rotate(90deg);
+    }
+
+    .two {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 271px;
+        top: 1299px;     
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;        
+        color: #184A88;
+    }
+
+    .line2 {
+        position: absolute;
+        width: 60px;
+        height: 0px;
+        left: 286px;
+        top: 1310px;
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        transform: rotate(90deg);
+    }
+
+    .two-quest {
+        position: absolute;
+        width: 404px;
+        height: 28px;
+        left: 339px;
+        top: 1299px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;       
+        color: #000000;
+    }
+
+    .three {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 271px;
+        top: 1409px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;    
+        color: #184A88;
+    }
+
+    .line3 {
+        position: absolute;
+        width: 60px;
+        height: 0px;
+        left: 286px;
+        top: 1422px;      
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        transform: rotate(90deg);
+    }
+
+    .three-quest {
+        position: absolute;
+        width: 537px;
+        height: 28px;
+        left: 339px;
+        top: 1409px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;       
+        color: #000000;
+    }
+
+    .four {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 271px;
+        top: 1514px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;    
+        color: #184A88;
+    }
+
+    .line4 {
+        position: absolute;
+        width: 86px;
+        height: 0px;
+        left: 273px;
+        top: 1530px;  
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        transform: rotate(90deg);
+    }
+
+    .four-quest {
+        position: absolute;
+        width: 665px;
+        height: 56px;
+        left: 339px;
+        top: 1514px;       
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;        
+        color: #000000;     
+    }
+
+    .five {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 271px;
+        top: 1650px;    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;        
+        color: #184A88;
+    }
+
+    .line5 {
+        position: absolute;
+        width: 60px;
+        height: 0px;
+        left: 286px;
+        top: 1663px;
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        transform: rotate(90deg);
+    }
+
+    .five-quest {
+        position: absolute;
+        width: 553px;
+        height: 28px;
+        left: 339px;
+        top: 1648px;      
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;      
+        color: #000000;
+    }
 
     `}</style>
         </div>
