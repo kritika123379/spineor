@@ -1,9 +1,13 @@
 import Youtube from "./Youtube"
-import Outlink from "./Outlink"
+
+import Layout from "../Layout"
+import Header from "../Header/header"
+import Footer from "../Footer/footer"
 
 const Success = () => {
     return (
-        <div>
+        <Layout>
+            <Header/>
             <div className="success">
                 <div className="success-stories">
                     Success Stories
@@ -59,7 +63,7 @@ const Success = () => {
             <div>
             <img className="mongo-logo1" src= "images\mongodb-logo.png"></img>
             </div>
-
+            
             <style jsx>{`
     
     .success {
@@ -265,7 +269,9 @@ const Success = () => {
         top: 1643px;
     }
     `}</style>
-        </div>
+  
+        <Footer/>
+        </Layout>
     )
 }
 export default Success

@@ -12,6 +12,7 @@ export class Development extends Component {
                     </div>
                     <div className="java_development_image">
                     </div>
+                    <img className="java_development_image" src="/images/java_developmet.png" />
                     <div className="inner_image">
                     </div>
                     <div className="enterprise_header">
@@ -56,8 +57,6 @@ export class Development extends Component {
                     height: 503px;
                     left: 0px;
                     top: 1691px;
-                    background: url(java_developmet.png);
-                    border:2px solid black;
                 }
                 .inner_image{
                     position: absolute;
@@ -65,7 +64,6 @@ export class Development extends Component {
                     height: 527px;
                     left: 20px;
                     top: 1703px;
-                    border:2px solid grey;
                 }
                 .enterprise_header{
                     position: absolute;
@@ -92,7 +90,6 @@ export class Development extends Component {
                     font-size: 24px;
                     line-height: 28px;
                     color: #444444;
-                    border:1px solid black
                 }
                 .outer_button{
                     position: absolute;

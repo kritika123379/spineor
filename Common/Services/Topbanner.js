@@ -36,8 +36,7 @@ export class Topbanner extends Component {
                 height: 630px;
                 left: 0px;
                 top: 74px; 
-                background: #FFFFFF;
-                border:2px solid black
+                background: #FFFFFF;   
                }
                .heading_wrapper{
                 position: absolute;

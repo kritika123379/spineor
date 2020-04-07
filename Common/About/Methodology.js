@@ -1,48 +1,54 @@
 import React, { Component } from 'react'
+import Head from "next/head";
 
-//import img1 from "../resourses/images/img1.jpg";
 export class Methodology extends Component {
     render() {
         return (
             <React.Fragment>
-              <div className="image_wrapper" 
-            //style={{backgroundImage:`url(${img1})`}}
-              >
-              </div>  
+            <img className="image_wrapper" src= "images\african4.png"/>
+              <div className="text_wrap"></div>
+              <div className="image_right">
+              <p> Lorem Ipsum is simply dummy text of the printing and typesetting <br />
+              industry. Lorem Ipsum has been the industry's standard dummy text<br />
+               ever since the 1500s, when an unknown printer took a galley of type and<br />
+                scrambled it to make a type specimen book.</p>
+              <p>
+                It has survived not only five centuries, but also the leap into electronic<br />
+                  typesetting, remaining essentially unchanged. It was popularised in the<br />
+                   1960s with the release of Letraset sheets containing.</p>
+              <p>
+                Lorem Ipsum passages, and more recently with desktop publishing<br />
+                     software like Aldus PageMaker including versions of Lorem Ipsum.<br />
+              </p>
+              </div>
               <div className="image_left">
-              </div>
+            </div>
+
             <div className="image_left_header">
-              Our<br/> Methodology
+              Our<br /> Methodology
               </div>
-              <div className="image_left_text">
-                  Spineor, we have  an  enormous  industry <br/>
-                experience in  developing a  methodology that <br/>
-                applies to all projects irrespective of size and  <br/>
+            <div className="image_left_text">
+              Spineor, we have  an  enormous  industry <br />
+                experience in  developing a  methodology that <br />
+                applies to all projects irrespective of size and  <br />
                 duration.
               </div>
-              <div className="image_right">
-                <p> Lorem Ipsum is simply dummy text of the printing and typesetting <br/>
-              industry. Lorem Ipsum has been the industry's standard dummy text<br/>
-               ever since the 1500s, when an unknown printer took a galley of type and<br/>
-                scrambled it to make a type specimen book.</p>
-                <p>
-                 It has survived not only five centuries, but also the leap into electronic<br/>
-                  typesetting, remaining essentially unchanged. It was popularised in the<br/>
-                   1960s with the release of Letraset sheets containing.</p>
-                   <p>
-                    Lorem Ipsum passages, and more recently with desktop publishing<br/>
-                     software like Aldus PageMaker including versions of Lorem Ipsum.<br/>
-                     </p>
-              </div>
               <style jsx>{`
+                  .text_wrap{
+                        position: absolute;
+                    width: 699px;
+                    height: 243px;
+                    left: 602px;
+                    top: 1394px;
+                    background: #FFFFFF;
+                  }
                 .image_wrapper{
                     position: absolute;
                     width: 1300px;
                     height: 859px;
                     left: 1px;
-                    top: 778px;
-                    backgroundImage: url('/resourses/images/img1.jpg');
-                    border:2px solid black
+                    top: 778px;  
+                
                 }
                 .image_left{
                     position: absolute;
