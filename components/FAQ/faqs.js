@@ -54,15 +54,15 @@ const FAQS = () => {
             <div className= "three-quest">
             What type of teams does Ogma Conceptions have?
             </div>
-            <div className= "three">04</div>
+            <div className= "four">04</div>
             <div className= "line4"></div>
             <div className= "four-quest">
-            What type of teams does Ogma Conceptions have?
+            Are you flexible in adopting our standards or methodologies for development of our projects?
             </div>
             <div className= "five">05</div>
             <div className= "line5"></div>
             <div className= "five-quest">
-            What type of teams does Ogma Conceptions have?
+            How can I trust your productivity and charges to me?
             </div>
             <style jsx>{`
 
@@ -235,7 +235,120 @@ const FAQS = () => {
         color: #000000;
     }
 
+    .three {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 271px;
+        top: 1409px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;    
+        color: #184A88;
+    }
 
+    .line3 {
+        position: absolute;
+        width: 60px;
+        height: 0px;
+        left: 286px;
+        top: 1422px;      
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        transform: rotate(90deg);
+    }
+
+    .three-quest {
+        position: absolute;
+        width: 537px;
+        height: 28px;
+        left: 339px;
+        top: 1409px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;       
+        color: #000000;
+    }
+
+    .four {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 271px;
+        top: 1514px;
+        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;    
+        color: #184A88;
+    }
+
+    .line4 {
+        position: absolute;
+        width: 86px;
+        height: 0px;
+        left: 273px;
+        top: 1530px;  
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        transform: rotate(90deg);
+    }
+
+    .four-quest {
+        position: absolute;
+        width: 665px;
+        height: 56px;
+        left: 339px;
+        top: 1514px;       
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;        
+        color: #000000;     
+    }
+
+    .five {
+        position: absolute;
+        width: 28px;
+        height: 28px;
+        left: 271px;
+        top: 1650px;    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 28px;        
+        color: #184A88;
+    }
+
+    .line5 {
+        position: absolute;
+        width: 60px;
+        height: 0px;
+        left: 286px;
+        top: 1663px;
+        border: 1px solid rgba(0, 0, 0, 0.26);
+        transform: rotate(90deg);
+    }
+
+    .five-quest {
+        position: absolute;
+        width: 553px;
+        height: 28px;
+        left: 339px;
+        top: 1648px;      
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 28px;      
+        color: #000000;
+    }
 
     `}</style>
         </div>
