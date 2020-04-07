@@ -14,6 +14,8 @@ import About from './About';
 import Service from "./Service";
 
 
+import FAQS from '../components/FAQ/faqs';
+import Header from '../components/Header/header';
 
 
 export default (props) => {
@@ -22,6 +24,8 @@ export default (props) => {
   return (
     <div>
     <Header/>
+    <FAQS/>
+    {/* <Home/> */}
     <Home/>
     <Footer/>
     {/* <Success/> */}

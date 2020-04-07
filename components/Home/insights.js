@@ -1,4 +1,7 @@
+import Head from "next/head";
+
 const Insights = () => {
+
     return (
         <div>
             <div>
@@ -191,7 +194,6 @@ const Insights = () => {
                 top: 3905px;
                 bottom: 0px;
                 transform: rotate(-45deg);
-
             }
 
             .box10 {

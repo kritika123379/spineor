@@ -21,7 +21,7 @@ const Success = () => {
             <img className="trello-logo1" src= "images\trello-logo.png"></img>
             </div>
             <div className="out-link">
-
+                <Outlink/>
             </div>
             <div className="trello-content1">
                 Trello is the easy, free, flexible, and visual way to manage your projects and organize anything, trusted by millions of people from all over the world.
@@ -47,6 +47,9 @@ const Success = () => {
             </div>
             <div>
             <img className="trello-logo2" src= "images\trello-logo.png"></img>
+            </div>
+            <div className="out-link1">
+                <Outlink/>
             </div>
             <div className="trello-content2">
                 Trello is the easy, free, flexible, and visual way to manage your projects and organize anything, trusted by millions of people from all over the world.
@@ -86,11 +89,26 @@ const Success = () => {
         color: #333333;
     }
 
+    @media (min-width: 1024px) and (max-width: 1024px) {
+        .out-link {
+            position: absolute;
+            left: 37%;
+            right: 59%;
+            top: 54%;
+        }
+    }
     .out-link {
         position: absolute;
-        left: 38%;
-        right: 59.18%;
-        top: 54.18%;
+        left: 28%;
+        right: 69%;
+        top: 111%;
+    }
+
+    .out-link1 {
+        position: absolute;
+        left: 93%;
+        right: 4%;
+        top: 190%;
     }
 
     .success-content {

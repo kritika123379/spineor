@@ -1,1 +1,0 @@
-{"ast":null,"code":"import fetch from \"node-fetch\";\nexport var fetcher = function fetcher(url) {\n  return fetch(url).then(function (r) {\n    return r;\n  })[\"catch\"](function (err) {\n    return err;\n  });\n};","map":null,"metadata":{},"sourceType":"module"}
