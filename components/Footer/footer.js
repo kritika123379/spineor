@@ -1,3 +1,6 @@
+import Youtubesvg from "./Youtubesvg"
+import Facebook from "./Facebook"
+import Linkedin from "./Linkedin"
 
 const Footer = () => {
     return(
@@ -59,9 +62,9 @@ const Footer = () => {
                 <div className= "copyright">
                 Copyright2020-Spineor.com
                 </div>
-                <div className= "facebook"></div>
-                <div className= "linkedin"></div>
-                <div className= "youtube"></div>
+                <div className= "facebook"><Facebook/></div>
+                <div className= "linkedin"><Linkedin/></div>
+                <div className= "youtube"><Youtubesvg/></div>
             </div>
     <style jsx>{`
     
@@ -172,6 +175,42 @@ const Footer = () => {
         color: #EBEBEB;
     }
 
+    .linkedin {
+        background-color: white;
+        position: absolute;
+        left: 81.38%;
+        right: 15.54%;
+        top: 62.27%;
+        bottom: 28%;   
+        border: 2px solid #F1F1F1;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .facebook {
+        background-color: white;
+        position: absolute;
+        left: 77.31%;
+        right: 19.61%;
+        top: 62.27%;
+        bottom: 28%;    
+        border: 2px solid #F1F1F1;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
+    .youtube {
+        background-color: white;
+        position: absolute;
+        left: 85.38%;
+        right: 11.54%;
+        top: 62.27%;
+        bottom: 28%;
+        border: 1px solid #F1F1F1;
+        box-sizing: border-box;
+        border-radius: 4px;
+    }
+
     .copyright {
         position: absolute;
         width: 149px;
@@ -186,12 +225,6 @@ const Footer = () => {
         color: #DCDCDC;
     }
 
-    .youtube {
-        position: absolute;
-        left: 110%;
-        right: 110%;
-        top: 110%;
-    }
     `}</style>
         </div>
     )

@@ -3,21 +3,25 @@
 const Service = () => {
     return (
         <div>
-            <div className="box12">
-                <div className="box13">
-                    <div className="box14">
-                        Java/Scala Programming
-          </div>
-                    <div className="box15">
-                        Java is a programming language and computing platform first released by Sun Microsystems in 1995.
-          </div>
-                    <div className="box16">
-                        <div className="box17">
-                            Hire our java developers We do help businesses in integrating your Java applications with databases, operating systems and third-party applications with our java outsourcing company services. We have experience of re-engineering and migration of applications built in Java. This would include technology migration, database migration, Java application upgrade, application porting, etc.
-            <br />
-                            <br />
-            Our team of Java professionals ranked top in providing Java application development services in below:
+            <div>
+            <img className="service-img" src= "images\service.png"></img>
+            <div className= "services">
+                Services
             </div>
+                <div className="java-img">
+                    <div className="java-scala">
+                        Java/Scala Programming
+                    </div>
+                    <div className="java-scala-content">
+                        Java is a programming language and computing platform first released by Sun Microsystems in 1995.
+                    </div>
+                    <div className="service-box">
+                        <div className="service-content">
+                            Hire our java developers We do help businesses in integrating your Java applications with databases, operating systems and third-party applications with our java outsourcing company services. We have experience of re-engineering and migration of applications built in Java. This would include technology migration, database migration, Java application upgrade, application porting, etc.
+                            <br />
+                            <br />
+                        Our team of Java professionals ranked top in providing Java application development services in below:
+                        </div>
                     </div>
                 </div>
                 <div className="vector1"></div>
@@ -26,7 +30,7 @@ const Service = () => {
                 <div className="ellipse2"></div>
                 <div className="ellipse3"></div>
                 <div className="ellipse4"></div>
-                <div className="box22">
+                <div className="service-points">
                     Java Development Services
                 <br />
                 Java Enterprise Application Development
@@ -38,21 +42,21 @@ const Service = () => {
                 <div className="ellipse5"></div>
                 <div className="ellipse6"></div>
                 <div className="ellipse7"></div>
-                <div className="box23">
+                <div className="service-points2">
                     Java Web Services Development
                 <br />
                 Java Application Migration & Integration
                 <br />
                 Java Application Maintenance & Support
                 </div>
-                <div className="box24">
-                    <div className="box25">
+                <div className="service-box2">
+                    <div className="service-button">
                         View Our JAVA/SCALA Programming Service In Details
                     </div>
                 </div>
             </div>
             <style jsx>{`
-    .box12 {
+    .service-img {
         position: absolute;
         width: 1344px;
         height: 744px;
@@ -61,16 +65,30 @@ const Service = () => {
         background-color: gray;
     }
     
-    .box13 {
+    .java-img {
         position: absolute;
         width: 617px;
         height: 399px;
         left: 33px;
-        top: 390px;
+        top: 2365px;
         background: #184A88;
     }
+
+    .services {
+        position: absolute;
+        width: 272px;
+        height: 84px;
+        left: 92px;
+        top: 2032px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 72px;
+        line-height: 84px;
+        color: rgba(255, 255, 255, 0.8);
+    }
     
-    .box14 {
+    .java-scala {
         position: absolute;
         width: 349px;
         height: 113px;
@@ -84,7 +102,7 @@ const Service = () => {
         color: #FFFFFF;
     }
     
-    .box15 {
+    .java-scala-content {
         position: absolute;
         width: 525.23px;
         height: 146px;
@@ -98,16 +116,16 @@ const Service = () => {
         color: #FFFFFF;
     }
     
-    .box16 {
+    .service-box {
         position: absolute;
-        width: 693px;
+        width: 699px;
         height: 676px;
         left: 614px;
         top: -70px;
         background: #FFFFFF;
     }
     
-    .box17 {
+    .service-content {
         position: absolute;
         width: 548px;
         height: 263px;
@@ -126,7 +144,7 @@ const Service = () => {
         width: 11px;
         height: 11px;
         left: 728px;
-        top: 717px;
+        top: 2717px;
         background: #8E8E8E;
     }
 
@@ -135,7 +153,7 @@ const Service = () => {
         width: 11px;
         height: 11px;
         left: 728px;
-        top: 743px;
+        top: 2743px;
         background: #8E8E8E;
     }
 
@@ -144,7 +162,7 @@ const Service = () => {
         width: 11px;
         height: 11px;
         left: 728px;
-        top: 791px;
+        top: 2791px;
         background: #8E8E8E;
     }
 
@@ -153,16 +171,16 @@ const Service = () => {
         width: 11px;
         height: 11px;
         left: 728px;
-        top: 841px;
+        top: 2841px;
         background: #8E8E8E;
     }
 
-    .box22 {
+    .service-points {
         position: absolute;
         width: 213px;
         height: 206px;
         left: 770px;
-        top: 710px;
+        top: 2710px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
@@ -171,12 +189,12 @@ const Service = () => {
         color: #333333;
     }
 
-    .box23 {
+    .service-points2 {
         position: absolute;
         width: 213px;
         height: 206px;
         left: 1017px;
-        top: 710px;
+        top: 2710px;
         font-family: Roboto;
         font-style: normal;
         font-weight: 300;
@@ -190,7 +208,7 @@ const Service = () => {
         width: 11px;
         height: 11px;
         left: 977px;
-        top: 717px;
+        top: 2717px;
         background: #8E8E8E;
     }
 
@@ -199,7 +217,7 @@ const Service = () => {
         width: 11px;
         height: 11px;
         left: 977px;
-        top: 743px;
+        top: 2743px;
         background: #8E8E8E;
     }
 
@@ -208,23 +226,23 @@ const Service = () => {
         width: 11px;
         height: 11px;
         left: 977px;
-        top: 791px;
+        top: 2791px;
         background: #8E8E8E;
     }
 
-    .box24 {
+    .service-box2 {
         position: absolute;
         width: 457px;
         height: 50px;
         left: 740px;
-        top: 910px;
+        top: 2910px;
         background: #FFFFFF;
         border: 2px solid #184A88;
         box-sizing: border-box;
         border-radius: 4px;
     }
 
-    .box25 {
+    .service-button {
         position: absolute;
         width: 390px;
         height: 19px;
@@ -243,10 +261,11 @@ const Service = () => {
         border: solid blue;
         border-width: 0 3px 3px 0;
         display: inline-block;
-        left: 38%;
-        right: 59%;
-        top: 111%;
+        height: 0px;
+        left: 515px;
+        top: 2800px;;
         bottom: -17%;
+        padding: 13px;
         transform: rotate(135deg);
         -webkit-transform: rotate(135deg);
     }
@@ -256,14 +275,15 @@ const Service = () => {
         border: solid blue;
         border-width: 0 3px 3px 0;
         display: inline-block;
-        left: 43%;
-        right: 54%;
-        top: 111%;
+        height: 0px;
+        left: 575px;
+        top: 2800px;
         bottom: -17%;
         padding: 13px;
         transform: rotate(-45deg);
   -webkit-transform: rotate(-45deg);
     }
+
     `}</style>
         </div>
     )

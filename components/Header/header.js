@@ -1,34 +1,31 @@
 const Header = () => {
-    return (
+    return(
         <div>
-            <div className="nav-box">
-                <img className="spineor-logo" src="\images\spineor-logo.png"></img>
-                <div className="about">
+            <div className= "nav-box">
+                <img className= "spineor-logo" src= "\images\spineor-logo.png"></img>
+                <div className= "about">
                     ABOUT
                 </div>
-                <div className="service">
-                    SEERVICES
+                <div className= "service">
+                    SERVICES
                 </div>
-                <div className="success">
+                <div className= "success">
                     SUCCESS STORIES
                 </div>
-                <div className="insights">
+                <div className= "insights">
                     INSIGHTS
                 </div>
-                <div className="career">
+                <div className= "career">
                     CAREER
                 </div>
-                <div className="contact">
+                <div className= "contact">
                     CONTACT
                 </div>
-                <div className="quote-button">
+                <div>
+                <button className= "quote-button"><a>GET A QUOTE</a></button>
                 </div>
-                <div className="button-inner">
-                    GET A QUOTE
-                    </div>
-
             </div>
-            <style jsx>{`
+    <style jsx>{`
     
     .nav-box {
         position: absolute;
@@ -139,6 +136,17 @@ const Header = () => {
         left: 1158px;
         top: 18px;
         background: #184A88;
+<<<<<<< HEAD
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;     
+        border-radius: 2px;
+    }
+
+    a {
+        color: #FFFFFF
+=======
         border-radius: 2px;
     }
 
@@ -154,6 +162,7 @@ const Header = () => {
         font-size: 14px;
         line-height: 16px;       
         color: #FFFFFF;
+>>>>>>> master
     }
     `}</style>
         </div>

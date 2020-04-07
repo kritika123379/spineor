@@ -1,9 +1,17 @@
+import Head from "next/head";
+
 const Insights = () => {
+
     return (
         <div>
-            <div className="box1">
+            <div>
+            <img className="insights-img" src= "images\insights.jpg"></img>
+            <div className="insights">
+                Insights
+            </div>
                 <div className="box2">
-                    <div className="AI-header1">
+                    <div>
+                    <img className="AI-header1" src= "images\insignts-img.png"/>
                         <div className= "box3">
                             <div className= "box4">
                             The Role Of Artificial Intelligence In Web Development
@@ -14,10 +22,11 @@ const Insights = () => {
                         </div>
                     </div>
                 </div>
-                <div className= "vector1"></div>
-                <div className= "vector2"></div>
+                {/* <div className= "vector1"></div>
+                <div className= "vector2"></div> */}
                 <div className="box6">
-                    <div className="AI-header2">
+                    <div>
+                    <img className="AI-header2" src= "images\insights-img2.jpg"/>
                         <div className= "box7">
                             <div className= "box8">
                             Python In the Field of ML and AI
@@ -35,20 +44,32 @@ const Insights = () => {
             <strong>Startups and Enterprises</strong> since 2012.
             </div>
             <style jsx>{`
-            .box1 {
+            .insights-img {
                 position: absolute;
                 width: 1344px;
                 height: 677px;
                 left: 0px;
                 top: 3081px;
-                background-color: gray;
+            }
+            .insights {
+                position: absolute;
+                width: 255px;
+                height: 84px;
+                left: 89px;
+                top: 3165px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 72px;
+                line-height: 84px;
+                color: rgba(255, 255, 255, 0.8);
             }
             .box2 {
                 position: absolute;
                 width: 500px;
                 height: 580px;
                 left: 94px;
-                top: 393px;
+                top: 3475px;
                 background: #FFFFFF;
                 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
             }
@@ -58,7 +79,6 @@ const Insights = () => {
                 height: 283px;
                 left: 0px;
                 top: 0px;
-                background-color: red;
             }
             .box3 {
                 position: absolute;
@@ -102,7 +122,7 @@ const Insights = () => {
                 width: 500px;
                 height: 580px;
                 left: 741px;
-                top: 393px;
+                top: 3475px;
                 background: #FFFFFF;
                 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
             }
@@ -112,7 +132,6 @@ const Insights = () => {
                 height: 283px;
                 left: 0px;
                 top: 0px;
-                background-color: red;
             }
             .box7 {
                 position: absolute;
@@ -157,10 +176,10 @@ const Insights = () => {
                 border-width: 0 3px 3px 0;
                 display: inline-block;
                 padding: 13px;
-                left: 46%;
-                right: 51%;
-                top: 113%;
-                bottom: -19%;
+                left: 623px;
+                right: 477px;
+                top: 3825px;
+                bottom: -5px;
                 transform: rotate(135deg);
             }
             
@@ -170,12 +189,11 @@ const Insights = () => {
                 border-width: 0 3px 3px 0;
                 display: inline-block;
                 padding: 13px;
-                left: 51%;
-                right: 46%;
-                top: 125%;
-                bottom: -31%;
+                left: 678px;
+                right: 520px;
+                top: 3905px;
+                bottom: 0px;
                 transform: rotate(-45deg);
-
             }
 
             .box10 {
