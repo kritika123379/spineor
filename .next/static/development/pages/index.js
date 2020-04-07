@@ -12208,7 +12208,7 @@ var fetcher = function fetcher(url) {
 
 /***/ }),
 
-/***/ 2:
+/***/ 1:
 /*!**********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=E%3A%5Creactjs%5Coffice-work%5Cspineor-next%5Cspineor-next%5Cpages%5Cindex.js ***!
   \**********************************************************************************************************************************************/
@@ -12231,5 +12231,5 @@ module.exports = dll_e9e577f89808b21d8ba8;
 
 /***/ })
 
-},[[2,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
