@@ -3,6 +3,7 @@ import Youtube from "./Youtube"
 import Layout from "../Layout"
 import Header from "../Header/header"
 import Footer from "../Footer/footer"
+import Outlink from "./Outlink"
 
 const Success = () => {
     return (
