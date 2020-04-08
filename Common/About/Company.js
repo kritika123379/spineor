@@ -33,7 +33,7 @@ export class Company extends Component {
                     <div className="button_wrapper">   
                     </div>  
                     <div className="button_text">
-                    <span><i className="fas fa-arrow-down"></i></span> DownloadWhitepaper
+                    <span><i className="fas fa-arrow-down"></i></span>Download Whitepaper
                     </div>                    
                 </div>
               
@@ -46,6 +46,7 @@ export class Company extends Component {
                         top: 4146px;
                         
                     }
+
                     .top_text{
                         position: absolute;
                         width: 208px;
@@ -99,7 +100,7 @@ export class Company extends Component {
                     }
                     .button_text{
                         position: absolute;
-                        width: 157px;
+                        width: 162px;
                         height: 19px;
                         left: 902px;
                         top: 4518px;

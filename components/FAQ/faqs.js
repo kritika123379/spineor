@@ -1,4 +1,5 @@
 import Icon from "./Icon"
+import Company from "../../Common/About/Company"
 
 const FAQS = () => {
     return (
@@ -14,6 +15,7 @@ const FAQS = () => {
                 We have compiled a short list of the questions we are asked most frequently by our clients, our FAQs. If you don’t see the answer to your question here, please call us at (+91) 9163553305 ( Monday - Friday, 10AM - 9PM IST) or email us.
                 </div>
             </div>
+            <div className= "line6"></div>
             <div className= "one">01</div>
             <div className= "line"></div>
             <div className= "one-quest">
@@ -22,6 +24,16 @@ const FAQS = () => {
             <div className= "one-ans">
             Spineor works with the organizations worldwide to provide them with software development and web development solutions and services. Broadly, we provide the following services :
             </div>
+            <div className= "tick1"><Icon/></div>
+            <div className= "tick2"><Icon/></div>
+            <div className= "tick3"><Icon/></div>
+            <div className= "tick4"><Icon/></div>
+            <div className= "tick5"><Icon/></div>
+            <div className= "tick6"><Icon/></div>
+            <div className= "tick7"><Icon/></div>
+            <div className= "tick8"><Icon/></div>
+            <div className= "tick9"><Icon/></div>
+            <div className= "tick10"><Icon/></div>
             <div className= "point-table">
                 Mobile Application Development 
                 <br/>
@@ -44,26 +56,33 @@ const FAQS = () => {
             <br/>
             Open Source Customization – Joomla, Drupal, Magento, OsCommerce etc
             </div>
+            <div className= "line7"></div>
             <div className= "two">02</div>
             <div className= "line2"></div>
             <div className= "two-quest">
             How can I communicate with Spineor?
             </div>
+            <div className= "line8"></div>
             <div className= "three">03</div>
             <div className= "line3"></div>
             <div className= "three-quest">
             What type of teams does Ogma Conceptions have?
             </div>
+            <div className= "line9"></div>
             <div className= "four">04</div>
             <div className= "line4"></div>
             <div className= "four-quest">
             Are you flexible in adopting our standards or methodologies for development of our projects?
             </div>
+            <div className= "line10"></div>
             <div className= "five">05</div>
             <div className= "line5"></div>
             <div className= "five-quest">
             How can I trust your productivity and charges to me?
             </div>
+            <div className= "line11"></div>
+            <Company/>
+            
             <style jsx>{`
 
     .faqs-box {
@@ -73,6 +92,106 @@ const FAQS = () => {
         left: 0px;
         top: 74px;
         background: #FFFFFF;
+    }
+
+    .tick1 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 989px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick2 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 1020px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick3 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 1052px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick4 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 1085px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick5 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 1116px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick6 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 1147px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick7 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 680px;
+        top: 989px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick8 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 680px;
+        top: 1023px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick9 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 680px;
+        top: 1055px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick10 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 680px;
+        top: 1088px;
+        background: green;
+        border-radius: 50%;    
     }
 
     .faqs {
@@ -348,6 +467,60 @@ const FAQS = () => {
         font-size: 24px;
         line-height: 28px;      
         color: #000000;
+    }
+
+    .line6 {
+        position: absolute;
+        width: 975px;
+        height: 0px;
+        left: 217px;
+        top: 771px;     
+        border: 1px solid #EEEEEE;
+    }
+
+    .line7 {
+        position: absolute;
+        width: 975px;
+        height: 0px;
+        left: 217px;
+        top: 1258.5px;        
+        border: 1px solid #EEEEEE;
+    }
+
+    .line8 {
+        position: absolute;
+        width: 975px;
+        height: 0px;
+        left: 217px;
+        top: 1366px;       
+        border: 1px solid #EEEEEE;
+    }
+
+    .line9 {
+        position: absolute;
+        width: 975px;
+        height: 0px;
+        left: 217px;
+        top: 1476px;        
+        border: 1px solid #EEEEEE;
+    }
+
+    .line10 {
+        position: absolute;
+        width: 975px;
+        height: 0px;
+        left: 217px;
+        top: 1606px;       
+        border: 1px solid #EEEEEE;
+    }
+
+    .line11 {
+        position: absolute;
+        width: 975px;
+        height: 0px;
+        left: 217px;
+        top: 1715px;
+        border: 1px solid #EEEEEE;
     }
 
     `}</style>

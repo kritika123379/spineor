@@ -1,6 +1,7 @@
 import Link from 'next/link'
 
 const Header = () => {
+
     return(
         <div>
             <div className= "nav-box">
@@ -65,6 +66,79 @@ const Header = () => {
         top: 0px;
         position: fixed;
         background: #FFFFFF;
+    }
+
+    .nav-about {
+        width: 217px;
+        height: 180px;
+        left: 433px;
+        top: 74px;
+        background: #184A88;
+    }
+
+    .nav-who {
+        width: 98px;
+        height: 36px;
+        left: 451px;
+        top: 91px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 200%;
+        color: #FFFFFF;
+    }
+
+    .nav-infra {
+        width: 151px;
+        height: 31px;
+        left: 451px;
+        top: 132px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 200%;
+        color: #FFFFFF;
+    }
+
+    .nav-values {
+        width: 156px;
+        height: 31px;
+        left: 451px;
+        top: 168px;        
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 200%;
+        color: #FFFFFF;
+    }
+
+    .nav-events {
+        width: 182px;
+        height: 33px;
+        left: 451px;
+        top: 204px;     
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 200%;
+        color: #FFFFFF;
+    }
+
+    .nav-faq {
+        width: 182px;
+        height: 33px;
+        left: 451px;
+        top: 242px;       
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 200%;
+        color: #FFFFFF;
     }
 
     .spineor-logo {

@@ -1,4 +1,4 @@
-
+import Java from "./Java"
 
 const Service = () => {
     return (
@@ -9,6 +9,7 @@ const Service = () => {
                 Services
             </div>
                 <div className="java-img">
+                    <div className= "java-icon"><Java/></div>
                     <div className="java-scala">
                         Java/Scala Programming
                     </div>
@@ -72,6 +73,14 @@ const Service = () => {
         left: 33px;
         top: 2365px;
         background: #184A88;
+    }
+
+    .java-icon {
+        position: absolute;
+        width: 173px;
+        height: 182px;
+        left: 32px;
+        top: 62px;
     }
 
     .services {
@@ -141,38 +150,42 @@ const Service = () => {
 
     .ellipse1 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 728px;
         top: 2717px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .ellipse2 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 728px;
         top: 2743px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .ellipse3 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 728px;
         top: 2791px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .ellipse4 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 728px;
         top: 2841px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .service-points {
@@ -205,29 +218,32 @@ const Service = () => {
 
     .ellipse5 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 977px;
         top: 2717px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .ellipse6 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 977px;
         top: 2743px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .ellipse7 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 977px;
         top: 2791px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .service-box2 {
