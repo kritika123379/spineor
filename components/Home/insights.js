@@ -1,4 +1,6 @@
 import Head from "next/head";
+import Left from "./Left";
+import Right from "./Right";
 
 const Insights = () => {
 
@@ -22,8 +24,8 @@ const Insights = () => {
                         </div>
                     </div>
                 </div>
-                {/* <div className= "vector1"></div>
-                <div className= "vector2"></div> */}
+                <div className= "vector1"><Left/></div>
+                <div className= "vector2"><Right/></div>
                 <div className="box6">
                     <div>
                     <img className="AI-header2" src= "images\insights-img2.jpg"/>
@@ -172,28 +174,18 @@ const Insights = () => {
 
             .vector1 {
                 position: absolute;
-                border: solid blue;
-                border-width: 0 3px 3px 0;
-                display: inline-block;
-                padding: 13px;
-                left: 623px;
-                right: 477px;
-                top: 3825px;
-                bottom: -5px;
-                transform: rotate(135deg);
+                width: 41px;
+                height: 55px;
+                left: 595px;
+                top: 3810px;
             }
-            
+
             .vector2 {
                 position: absolute;
-                border: solid blue;
-                border-width: 0 3px 3px 0;
-                display: inline-block;
-                padding: 13px;
-                left: 678px;
-                right: 520px;
-                top: 3905px;
-                bottom: 0px;
-                transform: rotate(-45deg);
+                width: 41px;
+                height: 55px;
+                left: 670px;
+                top: 3875px;
             }
 
             .box10 {

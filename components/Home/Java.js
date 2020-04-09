@@ -1,5 +1,6 @@
 import React from "react";
 export default () => (
+	<div>
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg"
 	 viewBox="0 0 305.001 305.001">
 <g id="XMLID_7_">
@@ -45,4 +46,11 @@ export default () => (
 		c36.553-6.408,39.112-24.533,39.203-25.301C263.082,273.474,262.504,272.44,261.522,271.985z"/>
 </g>
 </svg>
+<style jsx>{`
+path {
+	fill: #FFFFFF
+}
+
+`}</style>
+</div>
  );

@@ -1,4 +1,6 @@
 import Java from "./Java"
+import Left from "./Left"
+import Right from "./Right"
 
 const Service = () => {
     return (
@@ -25,8 +27,8 @@ const Service = () => {
                         </div>
                     </div>
                 </div>
-                <div className="vector1"></div>
-                <div className="vector2"></div>
+                <div className="vector1"><Left/></div>
+                <div className="vector2"><Right/></div>
                 <div className="ellipse1"></div>
                 <div className="ellipse2"></div>
                 <div className="ellipse3"></div>
@@ -274,30 +276,16 @@ const Service = () => {
 
     .vector1 {
         position: absolute;
-        border: solid blue;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
         height: 0px;
-        left: 515px;
+        left: 480px;
         top: 2800px;;
-        bottom: -17%;
-        padding: 13px;
-        transform: rotate(135deg);
-        -webkit-transform: rotate(135deg);
     }
     
     .vector2 {
         position: absolute;
-        border: solid blue;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
         height: 0px;
-        left: 575px;
+        left: 570px;
         top: 2800px;
-        bottom: -17%;
-        padding: 13px;
-        transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
     }
 
     `}</style>
