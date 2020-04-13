@@ -30,7 +30,7 @@ import Mytriangle from '../Icons/Mytriangle';
         <div className="button_text">Explore Services</div>*/}
 
                 <div className="nav_section"></div>
-                <Link href="/who-are-we">
+                <Link href="/who-we-are">
                     <a>
                         <div className="whoweare">
                         Who We Are

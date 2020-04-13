@@ -94,7 +94,7 @@ import About from '../Common/About'
                 </div>
             </a>
             </Link>
-            <Link href="/our-insights">
+            <Link href="/insights">
             <a>
                 <div className= "insights">
                     INSIGHTS

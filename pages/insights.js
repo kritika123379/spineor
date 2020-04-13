@@ -1,7 +1,7 @@
 import React from 'react';
 import Insights from '../components/Insights/insights';
 
-const ourinsights = () => {
+const insights = () => {
     return (
         <div>
             <Insights/>
@@ -9,4 +9,4 @@ const ourinsights = () => {
     );
 };
 
-export default ourinsights;
+export default insights;
