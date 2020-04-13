@@ -21,7 +21,7 @@ const Home = () => {
         </div>
 
         <div>
-        <img className="backimg" src= "images\image1.png"></img>
+        <img className="backimg" src= "images\africannew.png"></img>
           <div className="box5">
             <div className="box6">
               A PEOPLE-FIRST APPROACH
@@ -59,7 +59,8 @@ const Home = () => {
     width: 1340px;
     height: 630px;
     top: 73px;
-    background: #FFFFFF;
+    background: transparent;
+    z-index:-1
   }
 
   .box1 {

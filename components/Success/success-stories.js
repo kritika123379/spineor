@@ -1,14 +1,14 @@
 import Youtube from "./Youtube"
 
-import Layout from "../Layout"
+
 import Header from "../Header/header"
 import Footer from "../Footer/footer"
 import Outlink from "./Outlink"
 
 const Success = () => {
     return (
-        <Layout>
-            <Header/>
+        <div>
+        <Header/>
             <div className="success">
                 <div className="success-stories">
                     Success Stories
@@ -66,14 +66,15 @@ const Success = () => {
             </div>
             
             <style jsx>{`
-    
+   
     .success {
         position: absolute;
         width: 1340px;
         height: 630px;
         left: 0px;
         top: 0px;
-        background: #FFFFFF;
+        background: transparent;
+        z-index:-1
     }
 
     .success-stories {
@@ -271,8 +272,8 @@ const Success = () => {
     }
     `}</style>
   
-        <Footer/>
-        </Layout>
+       <Footer/>
+        </div>
     )
 }
 export default Success

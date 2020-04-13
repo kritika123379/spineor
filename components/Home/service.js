@@ -1,14 +1,17 @@
+import Java from "./Java"
 
+ 
 
 const Service = () => {
     return (
         <div>
             <div>
-            <img className="service-img" src= "images\service.png"></img>
+            <img className="service-img" src= "images\service.jpg"></img>
             <div className= "services">
                 Services
             </div>
                 <div className="java-img">
+                <div className= "java-icon"><Java/></div>
                     <div className="java-scala">
                         Java/Scala Programming
                     </div>
@@ -56,6 +59,13 @@ const Service = () => {
                 </div>
             </div>
             <style jsx>{`
+            .java-icon {
+                position: absolute;
+                width: 173px;
+                height: 182px;
+                left: 32px;
+                top: 62px;
+            }        
     .service-img {
         position: absolute;
         width: 1344px;

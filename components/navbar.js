@@ -4,12 +4,7 @@ import { useRouter } from 'next/router';
 import { useAmp } from 'next/amp';
 import cn from 'classnames';
 import { SkipNavLink } from '@reach/skip-nav';
-
-// import NextLogo from './logo';
 import Container from './container';
-
-// import GitHubLogo from './icons/github';
-// import HeaderFeedback from './header-feedback';
 
 function Navbar() {
   const { route } = useRouter();
