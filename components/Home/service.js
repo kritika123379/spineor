@@ -1,6 +1,6 @@
 import Java from "./Java"
-
- 
+import Left from "./Left"
+import Right from "./Right"
 
 const Service = () => {
     return (
@@ -11,7 +11,7 @@ const Service = () => {
                 Services
             </div>
                 <div className="java-img">
-                <div className= "java-icon"><Java/></div>
+                    <div className= "java-icon"><Java/></div>
                     <div className="java-scala">
                         Java/Scala Programming
                     </div>
@@ -27,8 +27,8 @@ const Service = () => {
                         </div>
                     </div>
                 </div>
-                <div className="vector1"></div>
-                <div className="vector2"></div>
+                <div className="vector1"><Left/></div>
+                <div className="vector2"><Right/></div>
                 <div className="ellipse1"></div>
                 <div className="ellipse2"></div>
                 <div className="ellipse3"></div>
@@ -82,6 +82,14 @@ const Service = () => {
         left: 33px;
         top: 2365px;
         background: #184A88;
+    }
+
+    .java-icon {
+        position: absolute;
+        width: 173px;
+        height: 182px;
+        left: 32px;
+        top: 62px;
     }
 
     .services {
@@ -151,38 +159,42 @@ const Service = () => {
 
     .ellipse1 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 728px;
         top: 2717px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .ellipse2 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 728px;
         top: 2743px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .ellipse3 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 728px;
         top: 2791px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .ellipse4 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 728px;
         top: 2841px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .service-points {
@@ -215,29 +227,32 @@ const Service = () => {
 
     .ellipse5 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 977px;
         top: 2717px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .ellipse6 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 977px;
         top: 2743px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .ellipse7 {
         position: absolute;
-        width: 11px;
-        height: 11px;
+        width: 13px;
+        height: 13px;
         left: 977px;
         top: 2791px;
         background: #8E8E8E;
+        border-radius: 50%;
     }
 
     .service-box2 {
@@ -268,30 +283,16 @@ const Service = () => {
 
     .vector1 {
         position: absolute;
-        border: solid blue;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
         height: 0px;
-        left: 515px;
+        left: 480px;
         top: 2800px;;
-        bottom: -17%;
-        padding: 13px;
-        transform: rotate(135deg);
-        -webkit-transform: rotate(135deg);
     }
     
     .vector2 {
         position: absolute;
-        border: solid blue;
-        border-width: 0 3px 3px 0;
-        display: inline-block;
         height: 0px;
-        left: 575px;
+        left: 570px;
         top: 2800px;
-        bottom: -17%;
-        padding: 13px;
-        transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
     }
 
     `}</style>

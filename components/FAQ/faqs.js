@@ -84,8 +84,10 @@ const FAQS = () => {
             How can I trust your productivity and charges to me?
             </div>
             <div className= "line11"></div>
-                
-            <style jsx>{` 
+            <Company/>
+            
+            <style jsx>{`
+
     .faqs-box {
         position: absolute;
         width: 1340px;
@@ -94,6 +96,106 @@ const FAQS = () => {
         top: 74px;
         background: transparent;
         z-index:-1;
+    }
+
+    .tick1 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 989px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick2 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 1020px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick3 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 1052px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick4 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 1085px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick5 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 1116px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick6 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 340px;
+        top: 1147px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick7 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 680px;
+        top: 989px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick8 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 680px;
+        top: 1023px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick9 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 680px;
+        top: 1055px;
+        background: green;
+        border-radius: 50%;    
+    }
+
+    .tick10 {
+        position: absolute;
+        width: 17px;
+        height: 17px;
+        left: 680px;
+        top: 1088px;
+        background: green;
+        border-radius: 50%;    
     }
 
     .tick1 {

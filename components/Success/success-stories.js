@@ -1,6 +1,4 @@
 import Youtube from "./Youtube"
-
-
 import Header from "../Header/header"
 import Footer from "../Footer/footer"
 import Outlink from "./Outlink"

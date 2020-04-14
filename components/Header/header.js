@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import Navabout from '../Common/About/Aboutinsights/navabout'
 import Navservices from '../Common/About/Aboutinsights/navservices'
 import Link from "next/link"
-import Mytriangle from '../Common/About/Icons/Mytriangle'
 import About from '../Common/About'
 
  class header extends Component {
@@ -83,7 +82,8 @@ import About from '../Common/About'
                 onMouseMove={()=>this.onButtonEnter()} 
                 onMouseEnter={()=>this.onButtonEnter()} 
                 onMouseLeave={()=>this.onButtonEnter()}>
-                    SERVICES
+                    
+                
                 </div>
             </a>
             </Link>

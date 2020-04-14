@@ -60,6 +60,7 @@ import Whitepaper from './Icons/Whitepaper';
                         left: 111px;
                         top: 4146px;      
                     }
+
                     .top_text{
                         position: absolute;
                         width: 208px;
