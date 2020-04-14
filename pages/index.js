@@ -12,8 +12,6 @@ import { SkipNavContent } from '@reach/skip-nav';
 import Success from '../components/Success/success-stories';
 import About from './About';
 import Service from "./Service";
-
-
 import FAQS from '../components/FAQ/faqs';
 
 
@@ -23,8 +21,7 @@ export default (props) => {
   return (
     <div>
     <Header/>
-    <FAQS/>
-    {/* <Home/> */}
+    {/* <FAQS/> */}
     <Home/>
     <Footer/>
     {/* <Success/> */}
