@@ -10,13 +10,13 @@ import React, { Component } from 'react'
                  At Spineor Conceptions, secret to excellence lies in the fun that<br />
                  we all have together from time-to-time.</div>
                 <div className="events">2020 2019 2018 2015 2014</div>
-                <div className="outer_wrap1"></div>
+                
                 <img className="inner_wrap1" src="images/event1.jpg" />
                 <div className="inner_wrap1"></div>
-                <div className="outer_wrap2"></div>
+            
                 <img className="inner_wrap2" src="images/event2.jpg" />
                 <div className="inner_wrap2"></div>
-                <div className="outer_wrap3"></div>
+            
                 <img className="inner_wrap3" src="images/event3.jpg" />
                 <div className="inner_wrap3"></div>
                 <style jsx>{`

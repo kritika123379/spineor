@@ -1,50 +1,38 @@
 import Head from "next/head";
 import Left from "./Left";
 import Right from "./Right";
+import Card from "../Myconstants/Card";
 
 const Insights = () => {
-
     return (
         <div>
             <div>
-            <img className="insights-img" src= "images\insights.jpg"></img>
-            <div className="insights">
-                Insights
-            </div>
-                <div className="box2">
-                    <div>
-                    <img className="AI-header1" src= "images\insignts-img.png"/>
-                        <div className= "box3">
-                            <div className= "box4">
-                            The Role Of Artificial Intelligence In Web Development
-                            </div>
-                            <div className= "box5">
-                            Nowadays, Web development is growing at a rapid rate with a focus on enhancing user experience. We know that these days most people use mobile through access the web. Which indicates that websites with enhanced UI will remain at the...
-                            </div>
-                        </div>
+                    <img className="insights-img" src= "images\insights.jpg"></img>
+                    <div className="insights">
+                        Insights
                     </div>
-                </div>
-                <div className= "vector1"><Left/></div>
-                <div className= "vector2"><Right/></div>
-                <div className="box6">
-                    <div>
-                    <img className="AI-header2" src= "images\insights-img2.jpg"/>
-                        <div className= "box7">
-                            <div className= "box8">
-                            Python In the Field of ML and AI
-                            </div>
-                            <div className= "box9">
-                            Python language is one of the most popular programming languages in the world with its applications ranging from web development to scripting and process automation, Python is among one of the top choices among...
-                            </div>
-                        </div>
+                    <div className="box2">
+                    <Card 
+                     heading="The Role Of Artificial Intelligence In Web Development"
+                     subheading=" Nowadays, Web development is growing at a rapid rate with a focus on enhancing user experience. We know that these days most people use mobile through access the web. Which indicates that websites with enhanced UI will remain at the..."
+                    image="images\insignts-img.png"
+                    />
                     </div>
-                </div>
-            </div>
-            <div className= "box10">
-            Trusted by the world's leading 
-            <br/>
-            <strong>Startups and Enterprises</strong> since 2012.
-            </div>
+                    <div className= "vector1"><Left/></div>
+                    <div className= "vector2"><Right/></div>
+                    <div className="box6">
+                    <Card 
+                    heading=" Python In the Field of ML and AI"
+                    subheading=" Python language is one of the most popular programming languages in the world with its applications ranging from web development to scripting and process automation, Python is among one of the top choices among..."
+                    image="images\insights-img2.jpg"
+                    /> 
+                    </div>
+                    </div>
+                    <div className= "box10">
+                    Trusted by the world's leading 
+                    <br/>
+                    <strong>Startups and Enterprises</strong> since 2012.
+                    </div>
             <style jsx>{`
             .insights-img {
                 position: absolute;
@@ -210,3 +198,5 @@ const Insights = () => {
     )
 }
 export default Insights
+
+

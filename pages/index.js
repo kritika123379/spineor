@@ -4,14 +4,22 @@ import { fetcher } from '../shared/globalFunc';
 import SocialMeta from '../components/social-meta';
 import { SkipNavContent } from '@reach/skip-nav';
 import Layout from '../components/Layout';
+import Header from "../components/Header/header";
+import Events from '../components/Common/Events';
+import Servicenav from '../components/Header/Servicenav';
+import Insights from '../components/Insights/insights';
+
 
 
 export default (props) => {
   const isAmp = useAmp();
   return (
-   <Layout>
+
+   <div>
     <Home/>
-    </Layout>
+   </div>
+   
+    
   );
 };
 

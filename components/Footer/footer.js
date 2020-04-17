@@ -77,8 +77,6 @@ class footer extends Component {
     left: 0px;
     top:5415px;
     background: #000000;
-    margin-top:-500px;
-
 }
 .quick-links {
     position: absolute;

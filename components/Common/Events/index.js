@@ -14,7 +14,7 @@ class Events extends Component {
                 <Topbanner/>
                 <Content/>
                 <Read/>
-                <div style={{marginTop:"-3000px"}}>
+                <div style={{marginTop:"-3200px"}} >
                 <Footer/>
                 </div>
             </div>

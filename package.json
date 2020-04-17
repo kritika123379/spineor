@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@reach/skip-nav": "^0.9.0",
+    "bootstrap": "^4.4.1",
     "classnames": "^2.2.6",
     "firebase": "^7.12.0",
     "grpc": "^1.24.2",

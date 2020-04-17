@@ -1,36 +1,36 @@
-const Testimonial = () => {
+function Image(props){
     return(
         <div>
-            <div >
+        <img className={props.myclassName} src= {props.myimage}/>
+        </div>
+    )
+}
+
+const Testimonial = (props) => {
+    return(
+        <div>
+            <main>
             <img className= "world-map" src= "images\testimonial-img.png"/>
-                <div className= "vector">
-                <div>
-                <img className= "testimonial-img1" src= "images\person1.jpg"/>
-                </div>
-                <div>
-                <img className= "testimonial-img2" src= "images\person4.jpg"/>
-                </div>
-                <div>
-                <img className= "testimonial-img3" src= "images\person2.jpg"/>
-                </div>
-                <div>
-                <img className= "testimonial-img4" src= "images\person3.jpg"/>
-                </div>
-                </div>
-                <div className= "t-name">
+                <section className= "vector">
+                <Image myclassName="testimonial-img1" myimage="images\person1.jpg" />
+                <Image myclassName="testimonial-img2" myimage="images\person4.jpg" />
+                <Image myclassName="testimonial-img3" myimage="images\person2.jpg" />
+                <Image myclassName="testimonial-img4" myimage="images\person3.jpg" />
+                </section>
+                <section className= "t-name">
                 Sean Devlin
-                </div>
-                <div className= "t-position">
+                </section>
+                <section className= "t-position">
                 Director of an Australian Stealth Startup
-                </div>
-                <div className= "testimonial-box">
+                </section>
+                <section className= "testimonial-box">
                 They've been extremely flexible in their process for delivering our project, just what our startup needed. It has been an extremely positive experience.
-                </div>
-                <div className= "quote">
+                </section>
+                <section className= "quote">
                    “ 
-                </div>
-            </div>
-    <style jsx>{`
+                </section>
+            </main>
+    <style global jsx>{`
     .world-map {
         position: absolute;
         width: 1344px;
