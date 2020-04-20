@@ -10,8 +10,6 @@ import Java from "../Home/Java";
 
 const Mywork={
   Work:{
-  text:"Java Development Service  Java Desktop Application Development Java, Mobile Application Development",
-  mylist:"Java Web Services Development Java Application Migration & Integration Java Application Maintenance & Support ",
   myparagraph:"Hire our java developers We do help businesses in integrating your Java applications with databases, operating systems and third-party applications with our java outsourcing company services. We have experience of re-engineering and migration of applications built in Java. This would include technology migration, database migration, Java application upgrade, application porting, etc. Our teamof Java professionals ranked top in providing Java application development services in below:"
   },
   Cart:{
@@ -26,6 +24,7 @@ const Myservice = () => {
     return (
         <React.Fragment>
           <img src="images/service.jpg" className="backimage2"/>
+            <label >Service</label>
           <Work  className="outerwrapper"
             myclassname="innerwrapper"
             newclassname="innertext"
@@ -87,7 +86,20 @@ const Myservice = () => {
                 height: 744px;
                 left: 0px;
                 top: 1962px;
-              }   
+              }
+              label {
+              position: absolute;
+              width: 272px;
+              height: 84px;
+              left: 92px;
+              top: 2032px;
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 72px;
+              line-height: 84px;
+              color: rgba(255, 255, 255, 0.8);  
+              }
         `}
         </style>
           </React.Fragment>
