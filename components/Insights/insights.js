@@ -3,7 +3,7 @@ import Header from "../Header/header"
 import Footer from "../Footer/footer"
 import Robot from "../Myconstants/Robot";
 import Smallrobo from "../Myconstants/Smallrobo";
-import Speaker from "../Myconstants/Speaker";
+
 
 
 const Insights = () => {

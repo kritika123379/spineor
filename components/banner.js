@@ -1,5 +1,3 @@
-// import Logo from './icons/zeit-white-full-logo';
-
 import Headings from "./designLayouts/headings";
 
 const Banner = () => {

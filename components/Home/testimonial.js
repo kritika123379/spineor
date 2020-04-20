@@ -1,11 +1,16 @@
-function Image(props){
+function Image({myclassName,myimage}){
     return(
         <div>
-        <img className={props.myclassName} src= {props.myimage}/>
+        <img className={myclassName} src= {myimage}/>
         </div>
     )
 }
 
+const test={
+    tname:  "Sean Devlin",
+    tposition : "Director of an Australian Stealth Startup",
+    ttext:" They've been extremely flexible in their process for delivering our project, just what our startup needed. It has been an extremely positive experience."
+}
 const Testimonial = (props) => {
     return(
         <div>
@@ -18,13 +23,13 @@ const Testimonial = (props) => {
                 <Image myclassName="testimonial-img4" myimage="images\person3.jpg" />
                 </section>
                 <section className= "t-name">
-                Sean Devlin
+                    {test.tname}
                 </section>
                 <section className= "t-position">
-                Director of an Australian Stealth Startup
+                    {test.tposition}
                 </section>
                 <section className= "testimonial-box">
-                They've been extremely flexible in their process for delivering our project, just what our startup needed. It has been an extremely positive experience.
+                    {test.ttext}
                 </section>
                 <section className= "quote">
                    “ 
@@ -104,6 +109,7 @@ const Testimonial = (props) => {
         left: 255.05px;
         top: 0px;
         border-radius: 50%;
+        opacity:0.9
     }
 
     .testimonial-img2 {
@@ -113,7 +119,7 @@ const Testimonial = (props) => {
         left: 32px;
         top: 159px;
         border-radius: 50%;
-        opacity: 0.6;
+        opacity: 0.9;
     }
 
     .testimonial-img3 {
@@ -123,7 +129,7 @@ const Testimonial = (props) => {
         left: 714px;
         top: 13px;
         border-radius: 50%; 
-        opacity: 0.6;  
+        opacity: 0.9;  
     }
 
     .testimonial-img4 {
@@ -133,7 +139,7 @@ const Testimonial = (props) => {
         left: 1176px;
         top: 152px;
         border-radius: 50%;
-        opacity: 0.6;
+        opacity: 0.9;
     }
      
     .vector {

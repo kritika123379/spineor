@@ -6,34 +6,44 @@ import Work from '../Myconstants/Work';
 import Left from "./Left";
 import Right from "./Right";
 import Java from "../Home/Java";
-
-
+import Backimage from '../Myconstants/Bckimage';
+const space="   "
+const Mywork={
+  Work:{
+  text:"Java Development Services , Java Enterprise Application Development ,Java Desktop Application Development Java, Mobile Application Development",
+  mylist:"Java Web Services Development Java Application Migration & Integration Java Application Maintenance & Support ",
+  myparagraph:"Hire our java developers We do help businesses in integrating your Java applications with databases, operating systems and third-party applications with our java outsourcing company services. We have experience of re-engineering and migration of applications built in Java. This would include technology migration, database migration, Java application upgrade, application porting, etc. Our teamof Java professionals ranked top in providing Java application development services in below:"
+  },
+  Cart:{
+    heading:"Java/Scala Programming" ,
+    children:"Java is a programming language and computing platform first released by Sun Microsystems in 1995."
+  },
+  Bigbutton:{
+    label:"View Our JAVA/SCALA Programming Service In Details"
+  }
+}
 const Myservice = () => {
     return (
         <React.Fragment>
-        <Approach  className="backimage2" image = "images/service.jpg"/>
+          <img src="images/service.jpg" className="backimage2"/>
           <Work  className="outerwrapper"
             myclassname="innerwrapper"
             newclassname="innertext"
             newclass="myclass"
             liststyle="mylist"
-            text="Java Development Services Java Enterprise Application Development Java Desktop Application Development Java Mobile Application Development"
-            list="Java Web Services Development Java Application Migration & Integration Java Application Maintenance & Support "
-            paragraph="Hire our java developers We do help businesses in integrating
-            your Java applications with databases, operating systems and third-party applications with our java outsourcing company services. We have experience of re-engineering 
-            and migration of applications built in Java. This would include technology migration, database migration, Java application upgrade, application porting, etc. Our team
-             of Java professionals ranked top in providing Java application development services in below:"
-            
+            text={Mywork.Work.text}
+            list={Mywork.Work.mylist}
+            paragraph={Mywork.Work.myparagraph}
              />  
           <Cart 
             className="outer_wrap" 
             myclassname="inner_wrap" 
             newclassname="inner_text"
-            heading="Java/Scala Programming" 
-            children="Java is a programming language and computing platform first released by Sun Microsystems in 1995."
+            heading={Mywork.Cart.heading}
+            children={Mywork.Cart.children}
            />
           <Bigbutton
-            biglabel="View Our JAVA/SCALA Programming Service In Details"
+            biglabel={Mywork.Bigbutton.label}
             className="outerwrap" 
             myclassName="innerwrap"
           />
@@ -64,7 +74,14 @@ const Myservice = () => {
                 left: 38px;
                 top: 2410px;
                
-              }       
+              }    
+              .backimage2{
+                position: absolute;
+                width: 1300px;
+                height: 744px;
+                left: 0px;
+                top: 1962px;
+              }   
         `}
         </style>
           </React.Fragment>

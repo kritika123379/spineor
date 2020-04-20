@@ -78,6 +78,7 @@ function Work(props){
             font-size: 16px;
             line-height: 157.2%;
             color: #333333;
+            word-spacing:5px
           }   
           .mylist{
             position: absolute;
@@ -90,8 +91,30 @@ function Work(props){
             font-weight: 300;
             font-size: 16px;
             line-height: 157.2%;
-            color: #333333
+            color: #333333;
+            word-spacing: 5px;
           }  
+          .envelope{
+            position: absolute;
+            width: 699px;
+            height: 243px;
+            left: 640px;
+            top: 1394px;
+            background: #FFFFFF;
+          }
+          .myinnerwrap{
+              padding:40px;
+              width: 567px;
+              height: 213px;
+              left: 693px;
+              top: 1466px;
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 21px;
+              color: #333333;
+          }
 
             `}</style>
         </React.Fragment>

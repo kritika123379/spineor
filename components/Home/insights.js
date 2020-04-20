@@ -3,36 +3,46 @@ import Left from "./Left";
 import Right from "./Right";
 import Card from "../Myconstants/Card";
 
+const Mycard={
+    card1:{
+    heading:"The Role Of Artificial Intelligence In Web Development",
+    subheading:" Nowadays, Web development is growing at a rapid rate with a focus on enhancing user experience. We know that these days most people use mobile through access the web. Which indicates that websites with enhanced UI will remain at the...",
+    },
+    card2:{
+        heading:" Python In the Field of ML and AI",
+        subheading:" Python language is one of the most popular programming languages in the world with its applications ranging from web development to scripting and process automation, Python is among one of the top choices among..."
+    }
+}
 const Insights = () => {
     return (
         <div>
-            <div>
+            <main>
                     <img className="insights-img" src= "images\insights.jpg"></img>
-                    <div className="insights">
+                    <section className="insights">
                         Insights
-                    </div>
-                    <div className="box2">
+                    </section>
+                    <section className="box2">
                     <Card 
-                     heading="The Role Of Artificial Intelligence In Web Development"
-                     subheading=" Nowadays, Web development is growing at a rapid rate with a focus on enhancing user experience. We know that these days most people use mobile through access the web. Which indicates that websites with enhanced UI will remain at the..."
+                     heading={Mycard.card1.heading}
+                     subheading={Mycard.card1.subheading}
                     image="images\insignts-img.png"
                     />
-                    </div>
-                    <div className= "vector1"><Left/></div>
-                    <div className= "vector2"><Right/></div>
-                    <div className="box6">
+                    </section>
+                    <section className= "vector1"><Left/></section>
+                    <section className= "vector2"><Right/></section>
+                    <section className="box6">
                     <Card 
-                    heading=" Python In the Field of ML and AI"
-                    subheading=" Python language is one of the most popular programming languages in the world with its applications ranging from web development to scripting and process automation, Python is among one of the top choices among..."
+                    heading={Mycard.card2.heading}
+                    subheading={Mycard.card2.subheading}
                     image="images\insights-img2.jpg"
                     /> 
-                    </div>
-                    </div>
-                    <div className= "box10">
+                    </section>
+                    </main>
+                    <section className= "box10">
                     Trusted by the world's leading 
                     <br/>
                     <strong>Startups and Enterprises</strong> since 2012.
-                    </div>
+                    </section>
             <style jsx>{`
             .insights-img {
                 position: absolute;

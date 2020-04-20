@@ -8,26 +8,34 @@ import Myservice from "./Myservice";
 import Testimonial from "./testimonial";
 import LetsTalk from "./LetsTalk"
 
-
+const heading={
+  heading : "Design, Develop, Test & Delivered" ,
+  paragraph:"Bespoke products & platforms engineered to elevate your customers experience earn their loyalty & grow your business",
+  biglabel:"Learn About Our Capabilities & Culture",
+  image:"images\africannew.png" 
+}
 const Home = () => {
   return (
-    <div>
-      <main className="box"> 
-          <Topbanner 
-          heading="Design, Develop, Test & Delivered" 
-          paragraph="Bespoke products & platforms engineered to elevate your customers' experience,
-          earn their loyalty & grow your business"
+    <React.Fragment>
+      <main> 
+          <Topbanner
+          class="box1" 
+          myclass="mytext"
+          heading={heading.heading}
+          paragraph={heading.paragraph}
           />
           <Button 
+          class="outers"
+          myclass="inners"
           label="Explore Services"
           />
           <div className="outer_box">
           <Approach 
           className="backimg"
-          image="images\africannew.png"
+          image={heading.image}
           />
           <Bigbutton 
-          biglabel="Learn About Our Capabilities & Culture" 
+          biglabel={heading.biglabel}
           className="outer"
           myclassName="inner"/>
         </div>
@@ -36,17 +44,8 @@ const Home = () => {
       <Insights/>
       <Testimonial/>
       <LetsTalk/>
-      <style jsx>{`
-   
-  .box {
-    position: absolute;
-    width: 1340px;
-    height: 630px;
-    top: 73px;
-    background: #ffffff;
-  }
-  `}</style>
-    </div>
+    
+    </React.Fragment>
   )
 }
 export default Home;

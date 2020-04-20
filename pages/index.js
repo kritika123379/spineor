@@ -8,6 +8,7 @@ import Header from "../components/Header/header";
 import Events from '../components/Common/Events';
 import Servicenav from '../components/Header/Servicenav';
 import Insights from '../components/Insights/insights';
+import Ourvalues from '../components/Common/Ourvalues';
 
 
 

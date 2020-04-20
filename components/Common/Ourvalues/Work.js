@@ -4,6 +4,7 @@ export class Work extends Component {
     render() {
         return (
             <React.Fragment>
+            
             <div className="button1_group"></div>
             <div className="button1_wrapper"></div>
             <div className="button1_inner">STEP 1</div>
