@@ -6,10 +6,11 @@ import { SkipNavContent } from '@reach/skip-nav';
 import Layout from '../components/Layout';
 import Header from "../components/Header/header";
 import Events from '../components/Common/Events';
-import Servicenav from '../components/Header/Servicenav';
+
 import Insights from '../components/Insights/insights';
 import Ourvalues from '../components/Common/Ourvalues';
-
+import Navbar from '../components/Header/header';
+import Footer from '../components/Footer/footer';
 
 
 export default (props) => {
@@ -17,8 +18,10 @@ export default (props) => {
   return (
 
    <div>
+    <Navbar/>
     <Home/>
-   </div>
+    
+    </div>
    
     
   );

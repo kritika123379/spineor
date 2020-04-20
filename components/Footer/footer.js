@@ -1,75 +1,106 @@
+import Link from 'next/link';
+import Container from '../container';
+import withPure from '../hoc/pure';
 import Youtubesvg from "./Youtubesvg"
 import Facebook from "./Facebook"
 import Linkedin from "./Linkedin"
-import React, { Component } from 'react'
 
-class footer extends Component {
-   
-    render() {
-        return (
-            <div>
-            <div className= "footer-box" >
-            <div className= "quick-links">
-            Quick Links
+export default withPure(() => (
+  <div className= "topp">
+  <Container wide dark>
+    <Container>
+      <footer>
+        <div className="grid f5">
+          <div>
+            <h4 className="fw5">Quick Links</h4>
+            <p>
+              <a href="/">Home</a>
+            </p>
+            <p>
+              <Link href="/abour">
+                <a>About</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="/success-stories">
+                <a>Success Stories</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="/insights">
+                <a>Insights</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="/career">
+                <a>Career</a>
+              </Link>
+            </p>
+            <p>
+              <Link href="/contact">
+                <a>Contact</a>
+              </Link>
+            </p>
+          </div>
+          <div>
+            <h4 className="fw5">Services</h4>
+            <p>
+              <a>Open Source Implementation </a>
+            </p>
+            <p>
+              <a>Scala Programming</a>
+            </p>
+            <p>
+              <a>Restful API'S </a>
+            </p>
+            <p>
+              <a>Automated Devops Deployment</a>
+            </p>
+            <p>
+              <a>Big Data Analytics</a>
+            </p>
+            <p>
+              <a> Native Apps Building</a>
+            </p>
+          </div>
+          <div className="service">
+            <p>
+              <a>Full/Mean Stack Development</a>
+            </p>
+            <p>
+              <a>Third Party Integrations</a>
+            </p>
+            <p>
+              <a> Crypto Currency Development</a>
+            </p>
+            <p>
+              <a>Java Programming</a>
+            </p>
+            <p>
+              <a>Us Staffing</a>
+            </p>
+          </div>
+          <div>
+            <h4 className="fw5">Contact</h4>
+            <p>
+              <a>
+                +91(991)502-1146
+              </a>
+            </p>
+            <p>
+              <a>
+                hr@spineor.com
+              </a>
+            </p>
+            <div className="flex-container">
+              <div className="facebook"><Facebook /></div>
+              <div className="linkedin"><Linkedin /></div>
+              <div className="youtube"><Youtubesvg /></div>
             </div>
-            <div className= "service-links">
-            Services
-            </div>
-            <div className= "contact">
-            Contact
-            </div>
-            <div className= "quick-links-inner">
-            Home 
-            <br/>
-            About 
-            <br/>
-            Success
-            <br/> 
-            Stories
-            <br/> 
-            Insights
-            <br/> 
-            Career
-            <br/> 
-            Contact
-            </div>
-            <div className= "service-inner">
-            Open Source Implementation 
-            <br/>
-            Scala Programming
-            <br/> 
-            Restful API'S 
-            <br/>
-            Automated Devops Deployment 
-            <br/>
-            Big Data Analytics 
-            <br/>
-            Native Apps Building 
-            </div>
-            <div className= "service-inner2">
-            Full/Mean Stack Development 
-            <br/>
-            Third Party Integrations
-            <br/> 
-            Crypto Currency Development 
-            <br/>
-            Java Programming 
-            <br/>
-            Us Staffing 
-            </div>
-            <div className= "contact-inner">
-            +91(991)502-1146 
-            <br/>
-            hr@spineor.com
-            </div>
-            <div className= "copyright">
-            Copyright2020-Spineor.com
-            </div>
-            <div className= "facebook"><Facebook/></div>
-            <div className= "linkedin"><Linkedin/></div>
-            <div className= "youtube"><Youtubesvg/></div>
+          </div>
         </div>
 <style jsx>{`
+
 .footer-box {
     position: relative;
     width: 1344px;
@@ -148,88 +179,99 @@ class footer extends Component {
     color: #EBEBEB;
 }
 
-.service-inner2 {
-    position: absolute;
-    width: 245px;
-    height: 155px;
-    left: 723px;
-    top: 146px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 170%;
-    color: #EBEBEB;
-}
+            .center {
+              text-align: center;
+            }
 
-.contact-inner {
-    position: absolute;
-    width: 154px;
-    height: 62px;
-    left: 1044px;
-    top: 147px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 170%;
-    color: #EBEBEB;
-}
+            .flex-container {
+              display: flex;
+              flex-direction: row;
+              margin-top: 50px;
+            }
 
-.linkedin {
-    background-color: white;
-    position: absolute;
-    left: 81.38%;
-    right: 15.54%;
-    top: 62.27%;
-    bottom: 28%;   
-    border: 2px solid #F1F1F1;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
+            .facebook {
+                background-color: white;
+                border: 2px solid #F1F1F1;
+                box-sizing: border-box;
+                border-radius: 4px;
+                margin-right: 10px;
+            }
 
-.facebook {
-    background-color: white;
-    position: absolute;
-    left: 77.31%;
-    right: 19.61%;
-    top: 62.27%;
-    bottom: 28%;    
-    border: 2px solid #F1F1F1;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
+            .linkedin {
+              background-color: white;
+              border: 2px solid #F1F1F1;
+              box-sizing: border-box;
+              border-radius: 4px;
+              margin-right: 10px;
+            }
+          
+            .youtube {
+                background-color: #FFFFFF;
+                border: 2px solid #F1F1F1;
+                box-sizing: border-box;
+                border-radius: 4px;
+            }
 
-.youtube {
-    background-color: white;
-    position: absolute;
-    left: 85.38%;
-    right: 11.54%;
-    top: 62.27%;
-    bottom: 28%;
-    border: 1px solid #F1F1F1;
-    box-sizing: border-box;
-    border-radius: 4px;
-}
+            .grid {
+              display: grid;
+              grid-template-columns: 1fr 1fr 1fr 1fr;
+              grid-row-gap: 2rem;
+            }
 
-.copyright {
-    position: absolute;
-    width: 149px;
-    height: 14px;
-    left: 615px;
-    top: 393px;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 14px;
-    color: #DCDCDC;
-}
+            footer {
+              padding: 2rem 0 4rem;
+              min-height: 200px;
+            }
+            a,
+            p,
+            .copyright {
+              color: #FFFFFF;
+            }
+            h4 a {
+              color: inherit;
+            }
+            a {
+              color: #FFFFFF;
+            }
+            .copyright {
+              margin-top: 3rem;
+            }
+            .copyright div {
+              margin-top: 0.5rem;
+            }
+            h4 {
+              margin-bottom: 0.75rem;
+            }
+            p {
+              margin-top: 0;
+              margin-bottom: 0.25rem;
+            }
 
-`}</style>  
-            </div>
-        )
-    }
-}
 
-export default footer
+            @media screen and (max-width: 700px) {
+              .grid {
+                grid-template-columns: 1fr;
+              }
+              h4,
+              p {
+                margin: 0;
+              }
+              a {
+                display: block;
+                padding-top: 15px;
+                padding-bottom: 15px;
+              }
+              .flex-container {
+                margin-left: 100px
+              }
+              .service {
+                margin-top: -30px
+              }
+            }
+          `}
+        </style>
+      </footer>
+    </Container>
+  </Container>
+  </div>
+));

@@ -1,129 +1,407 @@
-import Navabout from '../Common/About/Aboutinsights/navabout'
-import Navservices from '../Common/About/Aboutinsights/navservices'
-import Link from "next/link"
-import About from '../Common/About'
+import Head from 'next/head'
 
-import React, { useState } from 'react';
-import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+const Navbar = () => {
+    return (
+        <div>
+            <nav className="navbar navbar-expand-lg navbar-light">
+            <img className="navbar-brand" src="\images\spineor-logo.webp"></img>
+            <button className="btnn" type="submit">GET A QUOTE</button>
+                <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span className="navbar-toggler-icon"></span>
+                </button>
 
- 
- const header = (props) => {
-    const [dropdownOpen, setOpen] = useState(false);
+                <div className="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul className="navbar-nav mr">
+                    <li className="nav-item dropdown">
+                            <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                ABOUT<span className= "fa fa-angle-down"></span>
+                            </a>
+                            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <p className= "p" href="#">Who We Are</p>
+                                <p className= "p" href="#">Our Infrastructure</p>
+                                <p className= "p" href="#">Our Values</p>
+                                <p className= "p" href="#">Event & Celebrations</p>
+                                <p className= "p" href="#">FAQ</p>
+                            </div>
+                        </li>
+                        <li className="nav-item dropdown">
+                            <a className="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                SERVICES<span className= "fa fa-angle-down"></span>
+                            </a>
+                            <div className="dropdown-menu" id="box" aria-labelledby="navbarDropdown">
+                                <div className= "box1">
+                                <h4>Website Development</h4>
+                                <p>Full Stack Development</p>
+                                <p>Mean Stack Development</p>
+                                <p>PHP Development</p>
+                                <p>.NET Development</p>
+                                </div>
+                                <div className= "box2">
+                                <h4>E-Commerce Web Development</h4>
+                                <p>Magento Development</p>
+                                <p>WooCommerce Development</p>
+                                <p>Shopify Development</p>
+                                </div>
+                                <div className= "box3">
+                                <h4>Digital Marketing</h4>
+                                <p>SEO Marketing</p>
+                                <p>SMM Marketing</p>
+                                <p>PPC Marketing</p>
+                                <p>Google Analytics</p>
+                                </div>
+                                <div className= "box4">
+                                <h4>JAVA Development</h4>
+                                <p>Full Stack Development</p>
+                                <p>Mean Stack Development</p>
+                                <p>PHP Development</p>
+                                <p>.NET Development</p>
+                                </div>
+                                <div className= "box5">
+                                <h4>Web and Graphics Design</h4>
+                                <p>Full Stack Development</p>
+                                <p>Mean Stack Development</p>
+                                <p>PHP Development</p>
+                                </div>
+                                <div className= "box6">
+                                <h4>CMS Development</h4>
+                                <p>Full Stack Development</p>
+                                <p>Mean Stack Development</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">SUCCESS STORIES</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">INSIGHT</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">CAREER</a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                        <button className="btn" type="submit">GET A QUOTE</button>
+                </div>
+            </nav>
+    <style jsx>{`
 
-    const toggle = () => setOpen(!dropdownOpen);
+    .p {
+        color: white;
+        margin-left: 10px;
+    }
 
-     return (
-         <React.Fragment>
-         <ButtonDropdown isOpen={dropdownOpen} toggle={toggle}>
-          <div className="menubar" style={{backgroundColor:"#fffffff",color:"black"}}><DropdownToggle  >
-           About
-         </DropdownToggle>
-         </div>
-          <div className="menu" > <DropdownMenu>
-           <div className="menuitem"><DropdownItem  style={{color:"#ffffff"}}>Who We Are </DropdownItem></div>
-           <div className="menuitem1"><DropdownItem style={{color:"#ffffff"}}>Our Infrastructure</DropdownItem></div>
-           <div className="menuitem2" ><DropdownItem style={{color:"#ffffff"}}>Our Values</DropdownItem></div>
-           <div  className="menuitem3"><DropdownItem style={{color:"#ffffff"}}>Events & Celebration</DropdownItem></div>
-           <div className="menuitem4"><DropdownItem style={{color:"#ffffff"}}>FAQ</DropdownItem></div>
-         </DropdownMenu>
-         </div>
-       </ButtonDropdown>
-     
-       <style jsx>{`
-       .name{
-       
-       }
-       .menubar{
+    #box {
+        width: 1300px;
+        height: 570px;
+        left: -600px;
+        top: 50px;
+        background: #184A88;
+    }
+
+    .box1 {
         position: absolute;
-        width: 45px;
-        height: 16px;
-        left: 480px;
-        top: 30px; 
+        width: 242px;
+        height: 28px;
+        left: 100px;
+        top: 50px;
         font-family: Roboto;
         font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 16px; 
-        color: #000000;
-        background-color:transparent
-        
-       }
-       menu:hover {
-        background:#184A88 ;
-      }
-      menuitem:hover{
-        background:blue ;
-      }
-       .menu{
-       background:#184A88;
-       }
-       .menuitem{
-        background:#184A88;
-        height: 36px;
-        left: 451px;
-        top: 91px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 200%;   
-       }
-       .menuitem1{
-        height: 31px;
-        left: 451px;
-        top: 132px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 200%; 
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 28px;
         color: #FFFFFF;
-        background:#184A88
-       }
-       .menuitem2{
-        background:#184A88;
-        height: 31px;
-        left: 451px;
-        top: 168px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 200%;
-        color: #FFFFFF;
-       }
-       .menuitem3{
-        background:#184A88;
-        width: 182px;
-        height: 33px;
-        left: 451px;
-        top: 204px;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 200%;   
-        color: #FFFFFF;
-       }
-       .menuitem4{
-        width: 182px;
-        height: 33px;
-        left: 451px;
-        top: 242px;
-        background:#184A88;
-        font-family: Roboto;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 200%; 
-        color: #FFFFFF;
-       }
-      
-       `}</style>
-             
-       </React.Fragment>   
-     );
- };
- 
+    }
 
-export default header
+    .box2 {
+        position: absolute;
+        width: 342px;
+        height: 28px;
+        left: 550px;
+        top: 50px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;    
+        color: #FFFFFF;
+    }
+
+    .box3 {
+        position: absolute;
+        width: 186px;
+        height: 28px;
+        left: 1024px;
+        top: 50px;  
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;  
+        color: #FFFFFF;
+    }
+
+    .box4 {
+        position: absolute;
+        width: 214px;
+        height: 28px;
+        left: 100px;
+        top: 325px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px; 
+        color: #FFFFFF;
+    }
+
+    .box5 {
+        position: absolute;
+        width: 276px;
+        height: 28px;
+        left: 550px;
+        top: 325px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    .box6 {
+        position: absolute;
+        width: 200px;
+        height: 28px;
+        left: 1024px;
+        top: 325px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    p {
+        font-size: 15px;
+        font-weight: normal;
+    }
+
+    .dropdown-menu {
+        background-color: #184A88;
+    }
+
+    // .dropdown-item   {
+    //     color: #FFFFFF;
+    // }
+
+    .navbar-brand {
+        width: 120px;
+    }
+
+    .nav-link {
+        margin-left: 10px
+    }
+
+    .btn {
+        background-color: #184A88;
+        color: #FFFFFF;
+        margin-left: 20px;
+        margin-top: -4px
+    }
+
+    .mr  {
+        margin-left: 400px
+    }
+
+    a {
+        font-family: Robot;
+        font-style: normal;
+        color: #000000;
+    }
+
+    nav {
+        background-color: #FFFFFF;
+    } 
+
+    .navbar-light .navbar-nav .nav-link {
+        color: Black;
+    }
+
+    .btnn {
+        display: none;
+    }
+
+    .fa {
+        display: none;
+    }
+
+    @media only screen and (max-width: 1224px) {
+        #box {
+            width: 1224px;
+            height: 561px;
+            left: -652px;
+            top: 50px;
+            background: #184A88;
+        }
+    }
+
+    @media screen and (max-width: 994px) {
+
+        #box {
+            width: auto;
+            height: 1166px;
+            left: -610px;
+            top: 50px;
+            background: #184A88;
+        }
+
+        .box1 {
+            position: absolute;
+            width: 242px;
+            height: 28px;
+            left: 20px;
+            top: 50px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+
+        .box2 {
+            position: absolute;
+            width: 342px;
+            height: 71px;
+            left: 20px;
+            top: 275px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+
+        .box3 {
+            position: absolute;
+            width: 186px;
+            height: 28px;
+            left: 20px;
+            top: 447px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+
+        .box4 {
+            position: absolute;
+            width: 214px;
+            height: 28px;
+            left: 20px;
+            top: 672px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+
+        .box5 {
+            position: absolute;
+            width: 276px;
+            height: 28px;
+            left: 20px;
+            top: 900px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+
+        .box6 {
+            position: absolute;
+            width: 200px;
+            height: 28px;
+            left: 20px;
+            top: 1079px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 28px;
+            color: #FFFFFF;
+        }
+
+        .mr {
+            margin-left: 0px
+        } 
+
+        .quote {
+            display: flex;
+            
+        }
+
+        // @media only screen and (max-width: 768px) {
+        //     .btnn {
+        //         display: block;
+        //         background-color: #184A88;
+        //         color: #FFFFFF;
+        //         font-size: 14px;
+        //         height: 34px;
+        //         margin-left: 35px;
+        //     }
+        // }
+
+        .btnn {
+            display: block;
+            background-color: #184A88;
+            color: #FFFFFF;
+            font-size: 14px;
+            height: 34px;
+            margin-left: 35px;
+        }
+
+        .btn {
+            display: none;
+        }
+
+        .navbar-collapse {
+            background-color: #184A88;        
+        }
+
+        .navbar {
+            padding: 0.2rem 0.2rem;
+        }
+
+        .fa-angle-down {
+            float: right;
+            margin-right: 11px;
+        }
+
+        .fa {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: 20px;
+            color: white;
+            text-rendering: auto;
+        }
+
+        .navbar-light .navbar-nav .nav-link {
+            color: white;
+        }
+    
+    `}</style>
+        </div>
+    )
+}
+export default Navbar
