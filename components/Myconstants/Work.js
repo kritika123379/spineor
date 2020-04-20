@@ -1,6 +1,9 @@
 import React from "react";
 import Ellipse from "./Ellipse";
 
+ 
+
+
 function Work(props){
     return(
         <React.Fragment>
@@ -68,7 +71,7 @@ function Work(props){
           }
           .myclass{
             padding-left:60px;
-            width: 213px;
+            width: 273px;
             height: 206px;
             left: 738px;
             top: 2646px;
@@ -78,7 +81,7 @@ function Work(props){
             font-size: 16px;
             line-height: 157.2%;
             color: #333333;
-            word-spacing:5px
+           
           }   
           .mylist{
             position: absolute;
@@ -92,7 +95,7 @@ function Work(props){
             font-size: 16px;
             line-height: 157.2%;
             color: #333333;
-            word-spacing: 5px;
+          
           }  
           .envelope{
             position: absolute;

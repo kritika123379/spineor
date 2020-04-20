@@ -3,14 +3,14 @@ import Approach from "../Myconstants/Approach";
 import Bigbutton from '../Myconstants/Bigbutton';
 import Cart from '../Myconstants/Cart';
 import Work from '../Myconstants/Work';
+import Space from "../Myconstants/Space";
 import Left from "./Left";
 import Right from "./Right";
 import Java from "../Home/Java";
-import Backimage from '../Myconstants/Bckimage';
-const space="   "
+
 const Mywork={
   Work:{
-  text:"Java Development Services , Java Enterprise Application Development ,Java Desktop Application Development Java, Mobile Application Development",
+  text:"Java Development Service  Java Desktop Application Development Java, Mobile Application Development",
   mylist:"Java Web Services Development Java Application Migration & Integration Java Application Maintenance & Support ",
   myparagraph:"Hire our java developers We do help businesses in integrating your Java applications with databases, operating systems and third-party applications with our java outsourcing company services. We have experience of re-engineering and migration of applications built in Java. This would include technology migration, database migration, Java application upgrade, application porting, etc. Our teamof Java professionals ranked top in providing Java application development services in below:"
   },
@@ -31,8 +31,14 @@ const Myservice = () => {
             newclassname="innertext"
             newclass="myclass"
             liststyle="mylist"
-            text={Mywork.Work.text}
-            list={Mywork.Work.mylist}
+            text={<><Space list listitem="Java Development Services"/>
+            <Space list listitem="Java Enterprise Application Development "/>
+            <Space list listitem="Java Desktop Application Development"/>
+            <Space list listitem="Java Mobile Application Development"/></>}
+            list={<>
+            <Space list listitem="Java Web Services Development"/>
+            <Space list listitem="Java Application Migration & Integration "/>
+            <Space list listitem=" Java Application Maintenance & Support "/></>}
             paragraph={Mywork.Work.myparagraph}
              />  
           <Cart 
