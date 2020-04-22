@@ -2,8 +2,6 @@ import React from "react";
 import Ellipse from "./Ellipse";
 
  
-
-
 function Work(props){
     return(
         <React.Fragment>
@@ -21,6 +19,7 @@ function Work(props){
         <Ellipse className="ellipse5"/>
         <Ellipse className="ellipse6"/>
         <Ellipse className="ellipse7"/>
+      
         <style jsx>{`   
         .outwrap{
             position: absolute;
@@ -70,11 +69,12 @@ function Work(props){
             color: #333333;
           }
           .myclass{
+            padding-top:60px;
             padding-left:60px;
-            width: 273px;
+            width: 247px;
             height: 206px;
             left: 738px;
-            top: 2646px;
+            top: 2696px;
             font-family: Roboto;
             font-style: normal;
             font-weight: 300;
@@ -118,7 +118,68 @@ function Work(props){
               line-height: 21px;
               color: #333333;
           }
-
+          @media screen and (max-width: 600px) {
+            .outwrap{
+              position: absolute;
+              width: 334px;
+              height: 479px;
+              left: 13px;
+              top: 909px;
+              background: #FFFFFF;
+              border: 1px solid #F1F1F1;
+              box-sizing: border-box;
+          
+            }
+            .innerwrap{
+             position:absolute;
+              width: 290px;
+              height: 352px;
+              left: 30px;
+              top: 46px;      
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: 300;
+              font-size: 18px;
+              line-height: 21px;  
+              color: #333333;
+              word-spacing:0.5px;
+            }
+            .outerwrapper{
+              position: absolute;
+              width: 334px;
+              height: 528px;
+              left: 12px;
+              top: 1749px;
+              background: #FFFFFF;
+              border: 1px solid #F1F1F1;
+              box-sizing: border-box;
+            }
+           
+            .innertext{
+              position: absolute;
+              width: 213px;
+              height: 206px;
+              left: 71px;
+              top: 1633px;
+              font-family: Roboto;
+              font-style: normal;
+              font-weight: 300;
+              font-size: 16px;
+              line-height: 157.2%;  
+              color: #333333;
+            }
+           .innerwrapper{
+             padding:20px;
+           }
+            .myclass{
+              left:52px;
+              width:248px;
+              padding-top:0px;
+            }
+            .mylist{
+              display:none;
+            }
+          }
             `}</style>
         </React.Fragment>
     )

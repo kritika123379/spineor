@@ -149,7 +149,104 @@ const Testimonial = (props) => {
         left: 7px;
         top: 4420px;
     }
+    @media screen and (max-width: 600px) {
+        .world-map{
+            position:absolute;
+            width: 361px;
+            height: 189px;
+            left: 0px;
+            top: 3320px;
 
+        }
+        .testimonial-img1{
+            position: relative;
+            width: 59.99px;
+            height: 75.76px;
+            left: 100.33px;
+            top: -1070px;
+            opacity: 0.9;
+        }
+        .testimonial-img2{
+            position: relative;
+            width: 59.99px;
+            height: 75.76px;
+            left: 9.33px;
+            top: -1160px;
+            opacity: 0.9;
+        }
+        .testimonial-img3{
+            position: relative;
+            width: 58.9px;
+            height: 56.75px;
+            left: 200.79px;
+            top: -1230px;
+            opacity: 0.9;
+        }
+        .testimonial-img4{
+            position: absolute;
+            width: 60.24px;
+            height: 70.47px;
+            left: 274.98px;
+            top: -1080px;
+            border-radius: 50%;
+            opacity: 0.9;
+        }
+        .t-name{
+            position: relative;
+            width: 125px;
+            height: 28.69px;
+            left: 17px;
+            top: 3432px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 21px;
+            color: #222222;
+        }
+        .t-position{
+            position: relative;
+            width: 283px;
+            height: 19.46px;
+            left: 17px;
+            top: 3433.69px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 16px;
+            color: #555555;
+
+        }
+        .testimonial-box{
+            position: relative;
+            width: 321px;
+            height: 89px;
+            left: 17px;
+            top: 3452px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            color: #555555;
+
+        }
+        .quote{
+            position: relative;
+            width: 162.14px;
+            height: 281.5px;
+            left: 180.16px;
+            top: 3297.73px;
+            font-family: Rochester;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 300px;
+            line-height: 386px;
+            color: rgba(0, 0, 0, 0.1);
+            transform: matrix(-0.98, -0.19, 0.18, -0.98, 0, 0);
+        }
+      }
     `}</style>
         </div>
     )

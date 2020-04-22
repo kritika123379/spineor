@@ -1,21 +1,21 @@
 import React, { Component } from 'react'
-import Topbanner from './Topbanner'
-import Javafactory from './Javafactory'
-import Development from './Development'
-import Migration from './Migration'
 import Bestsolutions from './Bestsolutions'
 import Contact from './Contact'
 import Layout from '../../Layout'
+import Myjava from './Myjava'
+import Mybanner from './Banner'
+import Devops from './Devops'
+import Migrate from './Migrate'
 
  class Services extends Component {
     render() {
         return (
             <React.Fragment>
                 <Layout>
-                <Topbanner/>
-                <Javafactory/>
-                <Development/>
-                <Migration/>
+               <Mybanner/>
+                <Myjava/>
+                <Devops/>
+               <Migrate/>
                 <Bestsolutions/>
                 <Contact/>
                 </Layout>

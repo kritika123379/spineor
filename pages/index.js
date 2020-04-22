@@ -11,16 +11,14 @@ import Insights from '../components/Insights/insights';
 import Ourvalues from '../components/Common/Ourvalues';
 import Navbar from '../components/Header/header';
 import Footer from '../components/Footer/footer';
-
+import Services from '../components/Common/Services';
 
 export default (props) => {
   const isAmp = useAmp();
   return (
 
    <div>
-    <Navbar/>
-    <Home/>
-    
+    <Ourvalues/>
     </div>
    
     

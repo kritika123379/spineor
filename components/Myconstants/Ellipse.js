@@ -38,6 +38,36 @@ function Ellipse(props){
         left: 991px;
         top: 2653px;
        }
+       @media screen and (max-width: 600px) {
+       .ellipse1{
+        width: 11px;
+        height: 11px;
+        left: 44px;
+        top: 2019px;
+       }
+       .ellipse2{
+        width: 11px;
+        height: 11px;
+        left: 44px;
+        top: 2069px;
+        
+        }
+         .ellipse3{
+            width: 11px;
+            height: 11px;
+            left: 44px;
+            top: 2119px;
+        }
+        .ellipse4{
+            width: 11px;
+            height: 11px;
+            left: 44px;
+            top: 2169px;
+        }
+        .ellipse5 ,.ellipse6 ,.ellipse7{
+            display:none;
+        }
+      }
        `}</style>
         </div>
     )

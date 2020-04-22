@@ -202,6 +202,67 @@ const Insights = () => {
             strong {
                 color: blue;
             }
+            @media screen and (max-width: 600px) {
+               .insights-img{
+                position: absolute;
+                width: 360px;
+                height: 223px;
+                left: 0px;
+                top: 2360px;
+                background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #FFFFFF 100%);
+
+               }
+               .insights{
+                position: absolute;
+                width: 128px;
+                height: 42px;
+                left: 116px;
+                top: 2374px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 36px;
+                line-height: 42px;          
+                color: rgba(255, 255, 255, 0.8);
+               }
+               .box2{
+                box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+                width: 320px;
+                height: 545px;
+                left: 18px;
+                top: 2588px;
+              }
+              .box10{
+                position: absolute;
+                width: 307px;
+                height: 76px;
+                left: 42px;
+                top: 3240px;
+                font-family: Roboto;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 16px;                
+                color: #000000;
+              }
+              .vector1{
+                left: 39%;
+                right: 25%;
+                top: 3154px;
+                bottom: 0%;
+                position:absolute;
+             
+              }
+              .vector2{
+                position: absolute;
+                left: 50%;
+                right: -25%;
+                top: 426%;
+                bottom: -100%;
+              }
+              .box6{
+                  display:none;
+              }
             `}
             </style>
         </div>

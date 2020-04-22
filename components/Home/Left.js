@@ -17,6 +17,12 @@ svg {
     fill: #87BBE5;
     height: 70px
 }
+@media screen and (max-width: 600px) {
+	svg{
+		width: 16.5px;
+		height: 33px
+	}
+  }
 `}</style>
 	</div>
 );

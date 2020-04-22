@@ -5,10 +5,13 @@ import Backimage from "./Bckimage";
 
 function Approach(props) {
     return (
-        <div>
+        <div className="wrapper">
+     
         <Backimage  
         className="bck1" 
         image = "images/africannew.png"/>
+        
+     
         <Work 
         className="outwrap" 
         myclassname="innerwrap"
@@ -16,7 +19,8 @@ function Approach(props) {
         We deliver the best of all worlds with our agile, end-to-end process. We get rid of your digital development headaches by 
         maximizing efficiencies to deliver transformative solutions that delight users and drive revenue.
         Our mission is to help clients from startup to enterprise optimize their online businesses for unstoppable growth." />
-     
+        
+      
        <Cart 
         className="outers"
         myclassname="inners" 
@@ -25,7 +29,8 @@ function Approach(props) {
         children="Custom Digital Products & Platforms Created by People, for People.
           Transform your business with our user-centric approach."/> 
       
-      
+         
+          
         </div>
     );
    }

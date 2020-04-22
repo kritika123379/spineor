@@ -62,7 +62,71 @@ function Topbanner(props) {
           left: 656px;
           top: 246px;
         }
-        
+        .myhead{
+          position: absolute;
+          width: 435px;
+          height: 277px;
+          left: 126px;
+          top: 253px;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 56px;
+          line-height: 66px;
+          color: #333333;
+        }
+        .stick{
+          width: 515px;
+          height: 291px;
+          left: 650px;
+          top: 218px;
+          font-family: Roboto;
+          font-style: normal;
+          font-weight: 300;
+          font-size: 36px;
+          line-height: 42px;
+          color: #333333;
+        }
+        @media screen and (max-width: 630px) {
+          .wrapper{
+              display: grid;
+              grid-template-columns: 16fr 4fr ;
+              grid-row-gap: 2rem;
+            
+          }
+          .wrapper > div{
+          background-color:#AFBAC5/*(grey)*/
+          position: absolute;
+            width: 268px;
+            height: 227px;
+            left: 40px;
+            top: 218px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 21px;
+            text-align: center;
+            color: #222222;
+    
+          }
+          .wrapper > div :nth-child(odd){
+           background-color:#79A0C6 /*(blue)*/
+           position: absolute;
+            width: 254px;   
+            height: 141px;
+            left: 40px;
+            top: 79px;
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 36px;
+            line-height: 42px;
+            text-align: center;
+            color: #333333;
+          }
+
+        }
       `}</style>
     </React.Fragment>
   );

@@ -24,7 +24,7 @@ const Home = () => {
           heading={heading.heading}
           paragraph={heading.paragraph}
           />
-          <Button 
+           <Button 
           class="outers"
           myclass="inners"
           label="Explore Services"
@@ -34,18 +34,20 @@ const Home = () => {
           className="backimg"
           image={heading.image}
           />
-          <Bigbutton 
+          
+         <Bigbutton 
           biglabel={heading.biglabel}
           className="outer"
           myclassName="inner"/>
-        </div>
-      </main>
+             </div>
+      
       <Myservice/>
       <Insights/>
       <Testimonial/>
-      <LetsTalk/>
+  <LetsTalk/>
+      </main>
     
     </React.Fragment>
   )
 }
-export default Home;
+export default Home

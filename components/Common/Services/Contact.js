@@ -5,7 +5,19 @@ import Myhead from './icons/Myhead'
 import Email from './icons/Email'
 import Mybudget from './icons/Mybudget'
 import Down from './icons/Down'
+import Bigbutton from '../../Myconstants/Bigbutton'
 
+function FormData(props){
+return(
+    <React.Fragment>
+    <div className={props.className}>
+    <div style={props.style} className={props.classes}> <i className={props.fontawesome}></i>{props.svg}</div>
+    </div>
+    <div className={props.myclass}></div>
+    <div className={props.class}>{props.label}</div>
+    </React.Fragment>
+)
+}
 
 class Contact extends Component {
     render() {
@@ -20,48 +32,66 @@ class Contact extends Component {
                 <div className="inner_header">
                 CONTACT US FOR A FREE & CONFIDENTIAL CONSULTATION 
                 </div>
-                <div className="outer_textfield_name">
-                 <div style={{margin:"10px",color:"white"}}>
-                 <i className="fas fa-user fa-2x"></i></div>
-                </div>
-                    <div className="inner_textfield_name"></div>
-                    <div className="inner_textfield_text"> Name </div>
-                    <div className="outer_textfield_email">
-                     <div className="myemail" style={{marginLeft:"10px",marginTop:"10px"}}>
-                     <Email/></div>
-                    </div>
-                    <div className="inner_textfield_email"></div>
-                    <div className="inner_textfield_email_text"> Email </div>
-                    <div className="outer_textfield_phone">
-                    <div className="myphone" 
-                    style={{marginTop:"10px",marginLeft:"10px"}}><Phone/></div>
-                    </div>
-                    <div className="inner_textfield_phone"></div>
-                    <div className="inner_textfield_phone_text"> phone </div>
-                    <div className="outer_textfield_select">
-                    <div className="mybudget" style={{margin:"10px"}}><Mybudget/></div>
-                    </div>
-                    <div className="inner_textfield_select">
-                    <div className="downarrow" style={{marginLeft:"286px"}}><Down/></div>
-                    </div>
-                    <div className="inner_textfield_select_text"> Select Budget</div>
-                    <div className="out_rect">
-                    <div className="myquestion"
-                     style={{marginTop:"40px",marginLeft:"10px"}}>
-                     <Myhead/></div> 
-                    </div>
-                    <div className="in_rect"></div>
-                    <div className="in_text">Requirements</div> 
-                    <div className="outer_res"></div>
-                    <div className="inner_res"><pre> 15   +   9   =</pre></div>
-                    <div className="value"></div>
-                    <div className="value_text">Value</div>
-                    <div className="button_wrapper"></div>
-                    <div className="button_text">SUBMIT</div>
+                <FormData
+                className="outer_textfield_name"
+                style={{margin:"10px",color:"white"}}
+                fontawesome="fas fa-user fa-2x"
+                myclass="inner_textfield_name"
+                class="inner_textfield_text"
+                label="Name"
+                />
+                
+                <FormData
+                className="outer_textfield_email"
+                style={{marginLeft:"10px",marginTop:"10px"}}
+                svg={<Email/>}
+                myclass="inner_textfield_email"
+                class="inner_textfield_email_text"
+                label="Email"
+                />
+                 
+                <FormData
+                className="outer_textfield_phone"
+                style={{marginLeft:"10px",marginTop:"10px"}}
+                svg={<Phone/>}
+                myclass="inner_textfield_phone"
+                class="inner_textfield_phone_text"
+                label="phone"
+                />
+                <FormData
+                className="outer_textfield_select"
+                style={{margin:"10px"}}
+                classes="mybudget"
+                svg={<Mybudget/>}
+                myclass="inner_textfield_select"
+                class="inner_textfield_select_text"
+                label="Select Budget"
+                />
+                <FormData
+                className="out_rect"
+                style={{marginTop:"40px",marginLeft:"10px"}}
+                classes="myquestion"
+                svg={<Myhead/>}
+                myclass="in_rect"
+                class="in_text"
+                label="Requirements"
+                />
+                <div className="outer_res"></div>
+                <div className="inner_res"><pre> 15   +   9   =</pre></div>
+                <div className="value"></div>
+                <div className="value_text">Value</div>
+             
+                <Bigbutton 
+                className="button_wrapper"
+                myclassName="button_text"
+                biglabel="SUBMIT"
+                />
+                    
+                 
                 </form>
                 </div>
            
-                <style jsx>{`
+                <style  global jsx>{`
                 .downarrow{
                     position: absolute;
                     left: 0%;
@@ -100,31 +130,7 @@ class Contact extends Component {
                     left: 385px;
                     top: 4329px;
                 }
-                .button_wrapper{
-                    position: absolute;
-                    width: 370px;
-                    height: 49px;
-                    left: 661px;
-                    top: 4515px;
-                    background: #184A88;
-                    border-radius: 3px;
-                }
-                .button_text{
-                    position: absolute;
-                    width: 90px;
-                    height: 23px;
-                    left: 801px;
-                    top: 4528px;
-                    font-family: Roboto;
-                    font-style: normal;
-                    font-weight: 900;
-                    font-size: 20px;
-                    line-height: 23px;
-                    display: flex;
-                    align-items: center;
-                    letter-spacing: 0.1em;
-                    color: #FFFFFF;
-                }
+             
                 .outer_res{
                      position: absolute;
                     width: 370px;

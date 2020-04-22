@@ -58,6 +58,44 @@ const LetsTalk = () => {
         left: 374px;
         top: 5199px;
     }
+    @media screen and (max-width: 600px) {
+      .content-box{
+        width: 315px;
+        height: 28px;
+        left: 30px;
+        top: 3748px;
+       
+      }
+      .content{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 21px;
+        color: #333333;
+    
+      }
+      .button-outer{
+        width: 151px;
+        height: 39px;
+        left: 80px;
+        top: 60px;
+        background: #184A88;
+        border: 2px solid #184A88;
+        box-sizing: border-box;
+        border-radius: 4px;
+
+      }
+      .button-inner{
+        top:7px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+      }
+      }
     `}</style>
         </div>
     )

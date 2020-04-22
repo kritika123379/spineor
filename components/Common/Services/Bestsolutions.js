@@ -2,6 +2,16 @@ import React, { Component } from 'react'
 import Head from "next/head";
 import Check from './icons/Check';
 
+function Global(props){
+    return(
+        <div>
+        <div className={props.className} style={props.mystyle}>
+            {props.labeltext}
+        </div>
+        </div>
+    )
+}
+
 class Bestsolutions extends Component {
     render() {
         return (
@@ -10,23 +20,39 @@ class Bestsolutions extends Component {
             <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css"/>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
         </Head>
-        
-                <div className="top_header">
-                 Why Spineor is the best solutions?
-                </div>
-                <div className="product_text">
-                 Product Manager for your product
-                </div>
-                <div className="confidential">100% Confidential Consultation including a signed NDA!</div>
-                <div className="documentation"> Detailed Documentation <br/> and Analysis of your project</div>
-                <div className="deliver">We always deliver the <br/> source code with the project.</div>
-                
-                <div className="line11" style={{"left":"496px","top":"3968px"}}></div>
-                <div className="line5"></div>
-                <div className="check_circle">
-                <Check/>
-                </div>      
-                <style jsx>{`
+               <Global
+               className="top_header"
+               labeltext="Why Spineor is the best solutions?"
+               />
+               <Global
+               className="product_text"
+               labeltext=" Product Manager for your product"
+               />
+               <Global
+               className="confidential"
+               labeltext=" 100% Confidential Consultation including a signed NDA!"
+               />
+               <Global
+               className="documentation"
+               labeltext="Detailed Documentation  and Analysis of your project"
+               />
+               <Global
+               className="deliver"
+               labeltext="We always deliver the source code with the project."
+               />
+               
+               <Global
+               className="line11"
+               mystyle={{"left":"496px","top":"3968px"}}
+               />
+                <Global
+                className="line5"
+                />
+                <Global
+                className="check_circle"
+                labeltext={<Check/>}
+                />
+                <style global  jsx>{`
                 .line11{
                     position: absolute;
                     width: 318.2px;
@@ -43,8 +69,8 @@ class Bestsolutions extends Component {
                         height: 0px;
                         left: 500px;
                         top: 3962px;
-                    border: 1px solid #D3D3D3;
-                    transform: rotate(-45deg);
+                         border: 1px solid #D3D3D3;
+                        transform: rotate(-45deg);
 
                 }
                 .check_circle{
@@ -87,7 +113,8 @@ class Bestsolutions extends Component {
                     width: 738px;
                     height: 56px;
                     left: 281px;
-                    top: 3734px;         
+                    top: 3734px;
+                    
                     font-family: Roboto;
                     font-style: normal;
                     font-weight: 500;
@@ -95,8 +122,10 @@ class Bestsolutions extends Component {
                     line-height: 56px;
                     display: flex;
                     align-items: center;
-                    text-align: center;            
-                    color: #333333;                
+                    text-align: center;
+                    
+                    color: #333333;
+                                  
                 }
                 .product_text{
                     position: absolute;

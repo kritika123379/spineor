@@ -51,6 +51,9 @@ export default function Container({
         display: table;
         clear: both;
       }
+      @media only screen and (max-width: 1164px) {
+        width: 1205px;
+      }
       @media only screen and (max-width: 1024px) {
         width: 1205px;
       }

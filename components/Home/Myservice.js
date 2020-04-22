@@ -10,7 +10,7 @@ import Java from "../Home/Java";
 
 const Mywork={
   Work:{
-  myparagraph:"Hire our java developers We do help businesses in integrating your Java applications with databases, operating systems and third-party applications with our java outsourcing company services. We have experience of re-engineering and migration of applications built in Java. This would include technology migration, database migration, Java application upgrade, application porting, etc. Our teamof Java professionals ranked top in providing Java application development services in below:"
+  myparagraph:"Hire our java developers We do help businesses in integrating your Java applications with databases, operating systems and third-party applications with our java outsourcing company services. We have experience of re-engineering and migration of applications built in Java. This would include technology migration, database migration, Java application upgrade, application porting, etc. Our teamof Java professionals ranked top in providing Java application development services in below:",
   },
   Cart:{
     heading:"Java/Scala Programming" ,
@@ -30,6 +30,7 @@ const Myservice = () => {
             newclassname="innertext"
             newclass="myclass"
             liststyle="mylist"
+        
             text={<><Space list listitem="Java Development Services"/>
             <Space list listitem="Java Enterprise Application Development "/>
             <Space list listitem="Java Desktop Application Development"/>
@@ -99,6 +100,53 @@ const Myservice = () => {
               font-size: 72px;
               line-height: 84px;
               color: rgba(255, 255, 255, 0.8);  
+              }
+              @media screen and (max-width: 600px) {
+                .backimage2{
+                  position: absolute;
+                  width: 352px;
+                  height: 188px;
+                  left: 0px;
+                  top: 1422px;
+                }
+                label{
+                  position: absolute;
+                  width: 162px;
+                  height: 50px;
+                  left: 105px;
+                  top: 1425px;
+                  font-family: Roboto;
+                  font-style: normal;
+                  font-weight: normal;
+                  font-size: 36px;
+                  line-height: 42px;
+                  color: rgba(255, 255, 255, 0.8);
+                }
+                .java-icon{  
+                  position: absolute;
+                  width: 52px;
+                  height: 52px;
+                  left: 37px;
+                  top: 1605px;
+                }
+                .vector1{
+                    position: absolute;
+                    left: 40%;
+                    right: 25%;
+                    top: 2288px;
+                    bottom: 0%;
+                    background: #87BBE5;
+                   
+                }
+                .vector2{
+                  position: absolute;
+                  left: 49%;
+                  right: 25%;
+                  top: 2288px;
+                  bottom: 0%;
+                  background: #87BBE5;
+                }
+
               }
         `}
         </style>
